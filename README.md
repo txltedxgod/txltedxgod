@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm txltedxgod
 
-### Senior DevOps Engineer & Polyglot Fullstack Architect
+### Middle DevOps Engineer & Polyglot Fullstack Architect
 
 <p align="center">
   <a href="https://github.com/txltedxgod">
