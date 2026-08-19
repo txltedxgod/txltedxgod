@@ -2,17 +2,17 @@
 
 # 👋 Hi, I'm txltedxgod
 
-### Middle DevOps Engineer & Polyglot Fullstack Architect
+### Senior Systems Architect & Polyglot Engineer
 
 <p align="center">
   <a href="https://github.com/txltedxgod">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Cloud-Native+Infrastructure+%26+Kubernetes;High-Performance+Distributed+Backend+Systems;Rust+%E2%80%A2+Go+%E2%80%A2+C%2B%2B17+%E2%80%A2+C%23+%E2%80%A2+Python+%E2%80%A2+TypeScript;Production+Observability+%26+Reliability+Engineering" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Python+%E2%80%A2+C%2B%2B17+%E2%80%A2+Rust+%E2%80%A2+Go+%E2%80%A2+TypeScript+%E2%80%A2+C%23;Distributed+Systems+%26+High-Throughput+Storage+Engines;Cloud-Native+Kubernetes%2C+IaC+%26+Production+Observability;AI+Agents%2C+GraphRAG%2C+Real-Time+CRDTs+%26+Security+Gateways" alt="Typing SVG" />
   </a>
 </p>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=txltedxgod&style=flat-square&color=58A6FF)](https://github.com/txltedxgod)
 [![GitHub Followers](https://img.shields.io/github/followers/txltedxgod?label=Followers&style=flat-square&color=238636)](https://github.com/txltedxgod)
-[![Repositories](https://img.shields.io/badge/Repositories-27%2B-blueviolet?style=flat-square)](https://github.com/txltedxgod?tab=repositories)
+[![Repositories](https://img.shields.io/badge/Repositories-35%2B-blueviolet?style=flat-square)](https://github.com/txltedxgod?tab=repositories)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
 <br/>
@@ -23,67 +23,103 @@
 
 ---
 
-## 🛠️ Technical Matrix
+## 🛠️ Tech Stack & Skills Matrix
 
-### 💻 Core Programming Languages
-<p>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python_3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-</p>
+<div align="center">
 
-### ☁️ Cloud, Kubernetes & Infrastructure as Code
-<p>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Helm_3-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" />
-</p>
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Languages** | `Python 3.11+` · `Modern C++17` · `Rust` · `Go 1.22+` · `TypeScript` · `C# / .NET 8` · `SQL` · `Bash` |
+| **Cloud & DevOps** | `Kubernetes` · `Docker` · `Terraform` · `Helm 3` · `Ansible` · `AWS` · `GCP` · `GitHub Actions` |
+| **Databases & Caching** | `PostgreSQL` · `Redis` · `pgvector` · `Qdrant` · `SQLite` · `bbolt / mmap` · `Alembic` |
+| **Systems & Networking** | `gRPC / Protobuf` · `WebSockets` · `ZeroMQ` · `eBPF` · `WireGuard` · `CRDTs` · `QuadTree` |
+| **Observability** | `Prometheus` · `Grafana` · `Loki` · `Alertmanager` · `OpenTelemetry` · `Tracing` |
 
-### 📊 Observability & Reliability Engineering
-<p>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Loki-FF6600?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Alertmanager-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-</p>
-
-### 📡 Protocols & System Design
-<p>
-  <img src="https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white" />
-  <img src="https://img.shields.io/badge/Protocol_Buffers-4385F5?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
-  <img src="https://img.shields.io/badge/Server--Sent_Events-06B6D4?style=for-the-badge&logo=sse&logoColor=white" />
-  <img src="https://img.shields.io/badge/HMAC--SHA256-009688?style=for-the-badge&logo=security&logoColor=white" />
-</p>
+</div>
 
 ---
 
-## 🚀 Featured Architecture & Flagship Repositories
+## 📂 Repositories by Technology & Domain
 
-| Flagship Project | Language / Core Stack | Architecture Highlights |
-|------------------|-----------------------|-------------------------|
-| ☸️ **[k8s-pod-autoscale](https://github.com/txltedxgod/k8s-pod-autoscale)** | **Go · client-go** | Custom Kubernetes controller for dynamic queue-driven pod autoscaling. |
-| 🦀 **[logscan](https://github.com/txltedxgod/logscan)** | **Rust 2021 · Rayon** | Multi-threaded CLI log parser analyzing 3M+ lines/sec via zero-copy memory mapping. |
-| ⚡ **[turbokv](https://github.com/txltedxgod/turbokv)** | **Modern C++17 · Sockets** | High-throughput in-memory key-value engine with binary WAL crash recovery and TCP protocol. |
-| 🔷 **[hookflow](https://github.com/txltedxgod/hookflow)** | **C# / .NET 8 · EF Core** | Resilient webhook delivery gateway with background workers, exponential backoff & HMAC signing. |
-| ☁️ **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | **Terraform · AWS/GCP** | Production IaC blueprints: Multi-AZ VPC, EKS Cluster, Encrypted RDS Aurora, IAM Least Privilege. |
-| 🦫 **[gocache-proxy](https://github.com/txltedxgod/gocache-proxy)** | **Go 1.22 · Prometheus** | Transparent HTTP caching reverse proxy with concurrent LRU cache and Prometheus metrics. |
-| 🟢 **[status-pulse](https://github.com/txltedxgod/status-pulse)** | **Next.js 14 · TypeScript** | Modern service status page with 60-day interactive uptime bars and JSON health API. |
-| 🔒 **[cert-sentinel](https://github.com/txltedxgod/cert-sentinel)** | **Go · TLS · Prometheus** | Automated SSL/TLS certificate expiration monitor with webhook dispatching. |
+### 🐍 Python · AI Systems, LLM Orchestration & Backend
+
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| 🧠 **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python 3.11`, `FastAPI`, `AsyncIO` | Stateful DAG multi-agent workflow orchestrator with vector memory, tool sandboxing & live canvas. |
+| ⚡ **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `FastAPI`, `Pydantic v2`, `NumPy` | Advanced RAG engine with Reciprocal Rank Fusion (RRF) and multi-perspective query expansion. |
+| 🛡️ **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `FastAPI`, `Pydantic`, `Regex` | Production LLM safety evaluation gateway with prompt injection defense and PII redaction. |
+| ⚡ **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `FastAPI`, `Redis`, `NumPy` | Semantic vector cache for LLM API queries with cosine similarity deduplication (80% cost reduction). |
+| 📄 **[docassist](https://github.com/txltedxgod/docassist)** | `FastAPI`, `pgvector`, `AsyncIO` | Production RAG assistant over documents with async pgvector ingestion & semantic search. |
+| 🏛️ **[fastapi-clean-template](https://github.com/txltedxgod/fastapi-clean-template)** | `FastAPI`, `SQLAlchemy 2.0`, `DDD` | Enterprise Clean Architecture & Domain-Driven Design production boilerplate. |
+| 🔗 **[url-shortener](https://github.com/txltedxgod/url-shortener)** | `FastAPI`, `PostgreSQL`, `Redis` | Async URL shortener with click analytics, Base62 codes, QR codes and cached redirects. |
+| ⏰ **[taskpilot](https://github.com/txltedxgod/taskpilot)** | `Python 3.11`, `Cron`, `CLI` | Lightweight, dependency-free automation and task-scheduling toolkit with pluggable actions. |
 
 ---
 
-## 📈 GitHub Metrics & Consistency
+### ⚡ C++ · Low-Level Systems & Storage Engines
+
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| ⚡ **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `Sockets`, `POSIX` | Fast in-memory key-value store with TTL, binary Write-Ahead Logging (WAL) crash recovery, and TCP wire protocol. |
+
+---
+
+### 🦀 Rust · Systems Programming, Security & High Throughput
+
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| 🛡️ **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Hyper`, `Tower` | High-performance Edge API Gateway & WAF with lock-free atomic token bucket rate limiting (150k+ req/sec). |
+| 🔑 **[jwt-guard-rs](https://github.com/txltedxgod/jwt-guard-rs)** | `Rust`, `Axum`, `Redis-rs`, `Serde` | High-speed JWT authentication and real-time token revocation gateway with Redis cache. |
+| 🗄️ **[pg-migrate-cli](https://github.com/txltedxgod/pg-migrate-cli)** | `Rust`, `PostgreSQL`, `SQLite` | Fast transactional database schema migration CLI with rollbacks and checksum verification. |
+| 🔍 **[logscan](https://github.com/txltedxgod/logscan)** | `Rust 2021`, `Rayon`, `mmap` | Multi-threaded CLI log parser & pattern analyzer processing 3M+ lines/sec via zero-copy memory mapping. |
+
+---
+
+### 🐹 Go · Distributed Systems & Cloud-Native Services
+
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| ⚡ **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `mmap`, `WebSocket` | Distributed append-only commit-log message broker with consumer groups, rebalancing & real-time web UI. |
+| ☸️ **[k8s-pod-autoscale](https://github.com/txltedxgod/k8s-pod-autoscale)** | `Go`, `client-go`, `Prometheus` | Custom Kubernetes controller for dynamic queue-driven and custom metric pod autoscaling. |
+| 🦫 **[gocache-proxy](https://github.com/txltedxgod/gocache-proxy)** | `Go 1.22`, `Prometheus` | High-performance HTTP caching reverse proxy with concurrent thread-safe LRU and telemetry. |
+| 📡 **[grpc-stream-hub](https://github.com/txltedxgod/grpc-stream-hub)** | `Go`, `gRPC`, `Protobuf` | High-throughput bidirectional gRPC streaming hub with authentication interceptors and health checks. |
+| 🔒 **[cert-sentinel](https://github.com/txltedxgod/cert-sentinel)** | `Go`, `TLS`, `Prometheus` | Automated SSL/TLS certificate expiration watcher with Prometheus metrics and webhook alerts. |
+| 🌐 **[wireguard-mesh](https://github.com/txltedxgod/wireguard-mesh)** | `Go`, `WireGuard`, `Crypto` | Multi-cloud WireGuard full-mesh network topology and configuration generator. |
+
+---
+
+### 🔷 C# / .NET · Distributed Enterprise Services
+
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| 🔷 **[hookflow](https://github.com/txltedxgod/hookflow)** | `C# / .NET 8`, `EF Core`, `Workers` | High-throughput webhook delivery and retry engine with exponential backoff, HMAC signing & DLQ. |
+
+---
+
+### ☁️ DevOps, Kubernetes & Infrastructure as Code
+
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| ☁️ **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | `Terraform HCL`, `AWS`, `GCP` | Production modular Infrastructure as Code blueprints: Multi-AZ VPC, EKS Cluster, RDS Aurora, IAM. |
+| 📦 **[helm-charts-hub](https://github.com/txltedxgod/helm-charts-hub)** | `Helm 3`, `Kubernetes` | Curated production Helm charts for microservice deployments, Redis Sentinel HA and ingress controllers. |
+| 📊 **[docker-compose-lab](https://github.com/txltedxgod/docker-compose-lab)** | `Prometheus`, `Grafana`, `Loki` | Ready-to-use full observability stack with Promtail, Alertmanager, custom dashboards and log shipping. |
+| 🔒 **[ansible-hardening](https://github.com/txltedxgod/ansible-hardening)** | `Ansible`, `Linux Kernel` | Production Linux server security hardening, CIS benchmark compliance, and sysctl kernel tuning. |
+| 🧹 **[kube-cleaner](https://github.com/txltedxgod/kube-cleaner)** | `Python`, `Kubernetes API` | Kubernetes cluster housekeeping daemon for reaping evicted pods, completed jobs and stale resources. |
+| 💾 **[backup-daemon](https://github.com/txltedxgod/backup-daemon)** | `Go`, `S3 / MinIO`, `GPG` | Automated encrypted database backup daemon with object storage upload and retention management. |
+
+---
+
+### 🎨 TypeScript · Real-Time Systems & Collaborative Frontend
+
+| Repository | Tech Stack | Description |
+| :--- | :--- | :--- |
+| 🎨 **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `WebSockets`, `Canvas` | Real-time collaborative infinite canvas engine with Conflict-Free Replicated Data Types (CRDT) & QuadTree. |
+| 🟢 **[status-pulse](https://github.com/txltedxgod/status-pulse)** | `Next.js 14`, `TypeScript` | Modern open-source public service status page and incident communication portal with 60-day uptime bars. |
+| 🛠️ **[gh-actions-toolkit](https://github.com/txltedxgod/gh-actions-toolkit)** | `TypeScript`, `GitHub Actions` | Custom GitHub Action for automated semver bumping, changelog generation and release tagging. |
+
+---
+
+## 📈 GitHub Activity & Stats
 
 <div align="center">
 
@@ -99,5 +135,5 @@
 ---
 
 <div align="center">
-  <sub>Engineered with production reliability & cloud-native best practices · Available for open-source & consulting</sub>
+  <sub>Engineered with production reliability & cloud-native best practices · Available for open-source collaboration & consulting</sub>
 </div>
