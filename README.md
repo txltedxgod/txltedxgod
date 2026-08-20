@@ -29,7 +29,7 @@
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | `Python 3.11+` · `Modern C++17` · `Rust` · `Go 1.22+` · `TypeScript` · `C# / .NET 8` · `SQL` · `Bash` |
+| **Languages** | `Python 3.11+` · `Rust` · `Go 1.22+` · `TypeScript` · `SQL` · `Bash` |
 | **Cloud & DevOps** | `Kubernetes` · `Docker` · `Terraform` · `Helm 3` · `Ansible` · `AWS` · `GCP` · `GitHub Actions` |
 | **Databases & Caching** | `PostgreSQL` · `Redis` · `pgvector` · `Qdrant` · `SQLite` · `bbolt / mmap` · `Alembic` |
 | **Systems & Networking** | `gRPC / Protobuf` · `WebSockets` · `ZeroMQ` · `eBPF` · `WireGuard` · `CRDTs` · `QuadTree` |
