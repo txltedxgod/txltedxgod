@@ -2,124 +2,118 @@
 
 # 👋 Hi, I'm txltedxgod
 
-### Senior Systems Architect & Polyglot Engineer
-
-<p align="center">
-  <a href="https://github.com/txltedxgod">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Python+%E2%80%A2+C%2B%2B17+%E2%80%A2+Rust+%E2%80%A2+Go+%E2%80%A2+TypeScript+%E2%80%A2+C%23;Distributed+Systems+%26+High-Throughput+Storage+Engines;Cloud-Native+Kubernetes%2C+IaC+%26+Production+Observability;AI+Agents%2C+GraphRAG%2C+Real-Time+CRDTs+%26+Security+Gateways" alt="Typing SVG" />
-  </a>
-</p>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=txltedxgod&style=flat-square&color=58A6FF)](https://github.com/txltedxgod)
-[![GitHub Followers](https://img.shields.io/github/followers/txltedxgod?label=Followers&style=flat-square&color=238636)](https://github.com/txltedxgod)
-[![Repositories](https://img.shields.io/badge/Repositories-35%2B-blueviolet?style=flat-square)](https://github.com/txltedxgod?tab=repositories)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+### Senior Software & AI Infrastructure Engineer
+**Distributed Systems · LLM & AI Infrastructure · High-Throughput Gateways · Cloud-Native Architecture**
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=txltedxgod&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="GitHub Trophies" />
+[![GitHub Stars](https://img.shields.io/github/stars/txltedxgod?style=for-the-badge&color=388bfd&labelColor=0d1117)](https://github.com/txltedxgod)
+[![Public Repos](https://img.shields.io/badge/Public_Projects-70+-58a6ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/txltedxgod?tab=repositories)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&labelColor=0d1117)](https://opensource.org/licenses/MIT)
+
+<br/>
+
+```text
+> Specialization : Distributed Systems, LLM Orchestration, Memory-Safe Microservices & Cloud-Native FinOps
+> Primary Stacks : Python 3.12 · Go 1.22 · Rust · Modern C++17 · TypeScript · C# / .NET 8
+> Infrastructure : Kubernetes · Docker · Kafka · Redis · PostgreSQL · Terraform · Prometheus · Grafana
+```
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack & Skills Matrix
+## 🛠️ Core Technology Stack
 
 <div align="center">
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | `Python 3.11+` · `Rust` · `Go 1.22+` · `TypeScript` · `SQL` · `Bash` |
-| **Cloud & DevOps** | `Kubernetes` · `Docker` · `Terraform` · `Helm 3` · `Ansible` · `AWS` · `GCP` · `GitHub Actions` |
-| **Databases & Caching** | `PostgreSQL` · `Redis` · `pgvector` · `Qdrant` · `SQLite` · `bbolt / mmap` · `Alembic` |
-| **Systems & Networking** | `gRPC / Protobuf` · `WebSockets` · `ZeroMQ` · `eBPF` · `WireGuard` · `CRDTs` · `QuadTree` |
-| **Observability** | `Prometheus` · `Grafana` · `Loki` · `Alertmanager` · `OpenTelemetry` · `Tracing` |
+| **Languages** | `Python` · `Go (Golang)` · `Rust` · `C++17` · `TypeScript` · `C# (.NET 8)` · `SQL` |
+| **AI / ML & LLM** | `RAG (RRF / GraphRAG)` · `LoRA / QLoRA` · `DSPy` · `Vector Cache` · `LLM Guardrails` · `pgvector` · `PyTorch` |
+| **Distributed Systems** | `Event-Driven (Kafka / CDC)` · `gRPC / Protobuf` · `CRDTs` · `Commit-Log Brokers` · `Message Queues` · `WebSockets` |
+| **Cloud & DevOps** | `Kubernetes (K8s)` · `Docker & Compose` · `Helm 3` · `Terraform (IaC)` · `Ansible` · `GitHub Actions CI/CD` |
+| **Databases & Caching** | `PostgreSQL (WAL/Partman)` · `Redis` · `SQLite` · `SQLAlchemy 2.0 (Async)` · `Alembic` · `In-Memory KV` |
+| **Security & Observability**| `WebAuthn / Passkeys` · `JWT RBAC` · `Prometheus` · `Grafana` · `Loki` · `OpenTelemetry` · `WAF` |
 
 </div>
 
 ---
 
-## 📂 Repositories by Technology & Domain
+## 🚀 Featured Engineering Projects
 
-### 🐍 Python · AI Systems, LLM Orchestration & Backend
+### 🧠 1. AI, LLM Infrastructure & RAG Systems
 
-| Repository | Tech Stack | Description |
+| Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| 🧠 **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python 3.11`, `FastAPI`, `AsyncIO` | Stateful DAG multi-agent workflow orchestrator with vector memory, tool sandboxing & live canvas. |
-| ⚡ **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `FastAPI`, `Pydantic v2`, `NumPy` | Advanced RAG engine with Reciprocal Rank Fusion (RRF) and multi-perspective query expansion. |
-| 🛡️ **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `FastAPI`, `Pydantic`, `Regex` | Production LLM safety evaluation gateway with prompt injection defense and PII redaction. |
-| ⚡ **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `FastAPI`, `Redis`, `NumPy` | Semantic vector cache for LLM API queries with cosine similarity deduplication (80% cost reduction). |
-| 📄 **[docassist](https://github.com/txltedxgod/docassist)** | `FastAPI`, `pgvector`, `AsyncIO` | Production RAG assistant over documents with async pgvector ingestion & semantic search. |
-| 🏛️ **[fastapi-clean-template](https://github.com/txltedxgod/fastapi-clean-template)** | `FastAPI`, `SQLAlchemy 2.0`, `DDD` | Enterprise Clean Architecture & Domain-Driven Design production boilerplate. |
-| 🔗 **[url-shortener](https://github.com/txltedxgod/url-shortener)** | `FastAPI`, `PostgreSQL`, `Redis` | Async URL shortener with click analytics, Base62 codes, QR codes and cached redirects. |
-| ⏰ **[taskpilot](https://github.com/txltedxgod/taskpilot)** | `Python 3.11`, `Cron`, `CLI` | Lightweight, dependency-free automation and task-scheduling toolkit with pluggable actions. |
+| ⚡ **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy`, `Docker` | Advanced RAG with Reciprocal Rank Fusion (RRF), multi-query expansion and cross-encoder reranking. |
+| 🛡️ **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `Python`, `FastAPI`, `Pydantic`, `Regex` | Production LLM evaluation & safety platform: hallucination detection, prompt injection defense, PII masking. |
+| 💾 **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python`, `Redis`, `Vector-Search`, `FastAPI` | Semantic vector cache for LLM queries with cosine similarity deduplication (80%+ cost reduction). |
+| 🧠 **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python`, `AsyncIO`, `FastAPI`, `DAG` | Autonomous multi-agent orchestration framework with DAG execution, vector memory and tool sandboxing. |
+| 🕸️ **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python`, `Neo4j`, `Knowledge-Graph`, `LLM` | Knowledge Graph-enhanced RAG engine with entity extraction, graph traversal, and multi-hop reasoning. |
+| 📐 **[embeddings-quantizer](https://github.com/txltedxgod/embeddings-quantizer)** | `Python`, `Product-Quantization`, `SQ8` | High-performance vector quantization reducing embedding memory footprint by 75% without accuracy loss. |
+| 🎯 **[prompt-optimizer-dsp](https://github.com/txltedxgod/prompt-optimizer-dsp)** | `Python`, `DSPy`, `LLM-Optimization` | Automated prompt optimization & DSPy self-refinement framework for production AI pipelines. |
+| 🧪 **[synthetic-data-gen](https://github.com/txltedxgod/synthetic-data-gen)** | `Python`, `Differential-Privacy`, `Stats` | Privacy-preserving tabular synthetic data generator with Differential Privacy and validation reports. |
+| 📄 **[docassist](https://github.com/txltedxgod/docassist)** | `FastAPI`, `pgvector`, `aiogram3`, `Docker` | Production RAG assistant over documents: async pgvector ingestion, semantic search and SSE streaming. |
 
 ---
 
-### ⚡ C++ · Low-Level Systems & Storage Engines
+### ⚡ 2. High-Performance Distributed Systems & Gateways
 
-| Repository | Tech Stack | Description |
+| Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| ⚡ **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `Sockets`, `POSIX` | Fast in-memory key-value store with TTL, binary Write-Ahead Logging (WAL) crash recovery, and TCP wire protocol. |
-
----
-
-### 🦀 Rust · Systems Programming, Security & High Throughput
-
-| Repository | Tech Stack | Description |
-| :--- | :--- | :--- |
-| 🛡️ **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Hyper`, `Tower` | High-performance Edge API Gateway & WAF with lock-free atomic token bucket rate limiting (150k+ req/sec). |
-| 🔑 **[jwt-guard-rs](https://github.com/txltedxgod/jwt-guard-rs)** | `Rust`, `Axum`, `Redis-rs`, `Serde` | High-speed JWT authentication and real-time token revocation gateway with Redis cache. |
-| 🗄️ **[pg-migrate-cli](https://github.com/txltedxgod/pg-migrate-cli)** | `Rust`, `PostgreSQL`, `SQLite` | Fast transactional database schema migration CLI with rollbacks and checksum verification. |
-| 🔍 **[logscan](https://github.com/txltedxgod/logscan)** | `Rust 2021`, `Rayon`, `mmap` | Multi-threaded CLI log parser & pattern analyzer processing 3M+ lines/sec via zero-copy memory mapping. |
-
----
-
-### 🐹 Go · Distributed Systems & Cloud-Native Services
-
-| Repository | Tech Stack | Description |
-| :--- | :--- | :--- |
-| ⚡ **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `mmap`, `WebSocket` | Distributed append-only commit-log message broker with consumer groups, rebalancing & real-time web UI. |
-| ☸️ **[k8s-pod-autoscale](https://github.com/txltedxgod/k8s-pod-autoscale)** | `Go`, `client-go`, `Prometheus` | Custom Kubernetes controller for dynamic queue-driven and custom metric pod autoscaling. |
-| 🦫 **[gocache-proxy](https://github.com/txltedxgod/gocache-proxy)** | `Go 1.22`, `Prometheus` | High-performance HTTP caching reverse proxy with concurrent thread-safe LRU and telemetry. |
-| 📡 **[grpc-stream-hub](https://github.com/txltedxgod/grpc-stream-hub)** | `Go`, `gRPC`, `Protobuf` | High-throughput bidirectional gRPC streaming hub with authentication interceptors and health checks. |
-| 🔒 **[cert-sentinel](https://github.com/txltedxgod/cert-sentinel)** | `Go`, `TLS`, `Prometheus` | Automated SSL/TLS certificate expiration watcher with Prometheus metrics and webhook alerts. |
-| 🌐 **[wireguard-mesh](https://github.com/txltedxgod/wireguard-mesh)** | `Go`, `WireGuard`, `Crypto` | Multi-cloud WireGuard full-mesh network topology and configuration generator. |
-
----
-
-### 🔷 C# / .NET · Distributed Enterprise Services
-
-| Repository | Tech Stack | Description |
-| :--- | :--- | :--- |
+| 🛡️ **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum`, `Tower` | Ultra-fast cloud-native API Gateway and WAF with dynamic rate limiting and JWT RBAC policies (150k+ QPS). |
+| 📡 **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap`, `WebSocket` | Distributed commit-log message broker with consumer groups, automatic rebalancing & real-time dashboard. |
+| 🔀 **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python`, `PostgreSQL WAL`, `Kafka`, `Redis` | Real-time Change Data Capture (CDC) engine with Transactional Outbox pattern, DLQ and replay. |
+| ⚙️ **[distributed-task-mesh](https://github.com/txltedxgod/distributed-task-mesh)** | `Python`, `DAG`, `Task-Queue`, `FastAPI` | Lightweight distributed task queue and worker mesh with DAG task dependencies and live UI. |
+| 👑 **[distributed-cron-leader](https://github.com/txltedxgod/distributed-cron-leader)** | `Python`, `Leader-Election`, `Redis` | Distributed cron scheduler with leader election protocol and exactly-once task execution guarantees. |
+| ⚡ **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL`, `POSIX` | Fast in-memory key-value store with TTL, binary Write-Ahead Logging (WAL) crash recovery and TCP protocol. |
+| 🎨 **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `CRDTs`, `WebSockets`, `Canvas` | Collaborative infinite canvas engine with Conflict-Free Replicated Data Types & QuadTree spatial indexing. |
+| 🦫 **[gocache-proxy](https://github.com/txltedxgod/gocache-proxy)** | `Go 1.22`, `LRU-Cache`, `Prometheus` | High-performance HTTP caching reverse proxy with concurrent thread-safe in-memory LRU. |
 | 🔷 **[hookflow](https://github.com/txltedxgod/hookflow)** | `C# / .NET 8`, `EF Core`, `Workers` | High-throughput webhook delivery and retry engine with exponential backoff, HMAC signing & DLQ. |
 
 ---
 
-### ☁️ DevOps, Kubernetes & Infrastructure as Code
+### 🛡️ 3. Security, Authentication & Observability
 
-| Repository | Tech Stack | Description |
+| Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| ☁️ **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | `Terraform HCL`, `AWS`, `GCP` | Production modular Infrastructure as Code blueprints: Multi-AZ VPC, EKS Cluster, RDS Aurora, IAM. |
-| 📦 **[helm-charts-hub](https://github.com/txltedxgod/helm-charts-hub)** | `Helm 3`, `Kubernetes` | Curated production Helm charts for microservice deployments, Redis Sentinel HA and ingress controllers. |
-| 📊 **[docker-compose-lab](https://github.com/txltedxgod/docker-compose-lab)** | `Prometheus`, `Grafana`, `Loki` | Ready-to-use full observability stack with Promtail, Alertmanager, custom dashboards and log shipping. |
-| 🔒 **[ansible-hardening](https://github.com/txltedxgod/ansible-hardening)** | `Ansible`, `Linux Kernel` | Production Linux server security hardening, CIS benchmark compliance, and sysctl kernel tuning. |
-| 🧹 **[kube-cleaner](https://github.com/txltedxgod/kube-cleaner)** | `Python`, `Kubernetes API` | Kubernetes cluster housekeeping daemon for reaping evicted pods, completed jobs and stale resources. |
-| 💾 **[backup-daemon](https://github.com/txltedxgod/backup-daemon)** | `Go`, `S3 / MinIO`, `GPG` | Automated encrypted database backup daemon with object storage upload and retention management. |
+| 🔑 **[auth-passkey-service](https://github.com/txltedxgod/auth-passkey-service)** | `Python 3.12`, `FastAPI`, `WebAuthn`, `FIDO2` | Modern passwordless WebAuthn / Passkey FIDO2 authentication microservice with cross-platform attestation. |
+| 🔐 **[jwt-guard-rs](https://github.com/txltedxgod/jwt-guard-rs)** | `Rust`, `Axum`, `Redis`, `Serde` | High-speed JWT authentication and real-time token revocation gateway with sub-millisecond overhead. |
+| 🕵️ **[secret-scanner-ci](https://github.com/txltedxgod/secret-scanner-ci)** | `Python`, `Entropy-Analysis`, `CI/CD` | High-speed pre-commit & CI secret scanner detecting leaked API keys, tokens and high-entropy secrets. |
+| 📜 **[audit-trail-ledger](https://github.com/txltedxgod/audit-trail-ledger)** | `Python`, `Merkle-Tree`, `Crypto`, `FastAPI` | Cryptographically verifiable immutable audit log ledger with Merkle Tree hash verification. |
+| 📈 **[observability-anomaly-detector](https://github.com/txltedxgod/observability-anomaly-detector)** | `Python`, `Prometheus`, `IsolationForest` | Real-time time-series anomaly detection on Prometheus metrics and logs using Isolation Forest. |
+| ⏱️ **[cert-sentinel](https://github.com/txltedxgod/cert-sentinel)** | `Go`, `TLS / x509`, `Prometheus` | Automated SSL/TLS certificate expiry watcher and Prometheus exporter with webhook alerting. |
 
 ---
 
-### 🎨 TypeScript · Real-Time Systems & Collaborative Frontend
+### ☁️ 4. Cloud, Kubernetes, FinOps & Infrastructure
 
-| Repository | Tech Stack | Description |
+| Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| 🎨 **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `WebSockets`, `Canvas` | Real-time collaborative infinite canvas engine with Conflict-Free Replicated Data Types (CRDT) & QuadTree. |
-| 🟢 **[status-pulse](https://github.com/txltedxgod/status-pulse)** | `Next.js 14`, `TypeScript` | Modern open-source public service status page and incident communication portal with 60-day uptime bars. |
-| 🛠️ **[gh-actions-toolkit](https://github.com/txltedxgod/gh-actions-toolkit)** | `TypeScript`, `GitHub Actions` | Custom GitHub Action for automated semver bumping, changelog generation and release tagging. |
+| 💰 **[k8s-cost-optimizer](https://github.com/txltedxgod/k8s-cost-optimizer)** | `Python`, `Kubernetes API`, `FinOps` | Kubernetes resource rightsizing & FinOps cost optimization daemon: CPU/Memory waste detection. |
+| ☸️ **[k8s-pod-autoscale](https://github.com/txltedxgod/k8s-pod-autoscale)** | `Go`, `client-go`, `Prometheus` | Custom Kubernetes controller for dynamic queue and metric-based pod autoscaling. |
+| ☁️ **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | `Terraform HCL`, `AWS`, `GCP` | Production modular Infrastructure as Code blueprints: Multi-AZ VPC, EKS Cluster, Aurora RDS, IAM. |
+| 📦 **[helm-charts-hub](https://github.com/txltedxgod/helm-charts-hub)** | `Helm 3`, `Kubernetes` | Curated production Helm charts for microservices, Redis Sentinel HA, and ingress controllers. |
+| 📊 **[docker-compose-lab](https://github.com/txltedxgod/docker-compose-lab)** | `Prometheus`, `Grafana`, `Loki`, `Promtail` | Ready-to-use Docker Compose observability stack with custom dashboards and log shipping. |
+| 🔒 **[ansible-hardening](https://github.com/txltedxgod/ansible-hardening)** | `Ansible`, `Linux Kernel Tuning` | Production Linux server security hardening, CIS benchmark compliance, and sysctl tuning. |
 
 ---
 
-## 📈 GitHub Activity & Stats
+### 🏛️ 5. Clean Architecture Backend & Developer Tools
+
+| Repository | Tech Stack | Highlights |
+| :--- | :--- | :--- |
+| 🏛️ **[fastapi-clean-template](https://github.com/txltedxgod/fastapi-clean-template)** | `FastAPI`, `SQLAlchemy 2.0`, `DDD`, `Alembic` | Enterprise Clean Architecture & Domain-Driven Design production boilerplate with JWT RBAC. |
+| 🔍 **[database-query-optimizer](https://github.com/txltedxgod/database-query-optimizer)** | `Python`, `PostgreSQL EXPLAIN`, `AST` | Automated PostgreSQL query plan analyzer, EXPLAIN cost breakdown and index tuning advisor. |
+| 🧩 **[pydantic-ast-generator](https://github.com/txltedxgod/pydantic-ast-generator)** | `Python`, `Pydantic v2`, `Python AST` | Dynamic schema compiler generating Pydantic v2 models and AST validation rules from SQL DDL. |
+| 🗄️ **[pg-partman-py](https://github.com/txltedxgod/pg-partman-py)** | `Python`, `PostgreSQL`, `Timeseries` | Automated timeseries table partitioning and retention manager for PostgreSQL. |
+| 🔗 **[url-shortener](https://github.com/txltedxgod/url-shortener)** | `FastAPI`, `PostgreSQL`, `Redis`, `Docker` | Production-grade URL shortener with analytics, Base62 codes, dynamic QR codes, and dashboard. |
+| 🤖 **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `Python`, `aiogram 3`, `PostgreSQL`, `Docker` | Full-featured ecommerce Telegram bot with cart, FSM checkout, orders, promo codes and admin panel. |
+
+---
+
+## 📊 GitHub Analytics & Profile Statistics
 
 <div align="center">
 
@@ -135,5 +129,5 @@
 ---
 
 <div align="center">
-  <sub>Engineered with production reliability & cloud-native best practices · Available for open-source collaboration & consulting</sub>
+  <sub>Engineered with production reliability, performance & cloud-native best practices</sub>
 </div>
