@@ -8,9 +8,9 @@
 <br/>
 
 <!-- Language Switcher Bar -->
-[![Українська](https://img.shields.io/badge/Мова-🇺🇦_Українська_(За_замовчуванням)-388bfd?style=for-the-badge&labelColor=0d1117)](#-українська-версія)
-[![US English](https://img.shields.io/badge/Language-🇺🇸_US_English-238636?style=for-the-badge&labelColor=0d1117)](#-us-english-version)
-[![Русский](https://img.shields.io/badge/Язык-🇷🇺_Русский-8957e5?style=for-the-badge&labelColor=0d1117)](#-русская-версия)
+[![Українська](https://img.shields.io/badge/Мова-Українська_(За_замовчуванням)-388bfd?style=for-the-badge&labelColor=0d1117)](#-українська-версія)
+[![English](https://img.shields.io/badge/Language-English-238636?style=for-the-badge&labelColor=0d1117)](#-english-version)
+[![Русский](https://img.shields.io/badge/Язык-Русский-8957e5?style=for-the-badge&labelColor=0d1117)](#-русская-версия)
 
 <br/>
 
@@ -94,9 +94,9 @@
 
 ---
 
-<div id="-us-english-version"></div>
+<div id="-english-version"></div>
 
-## 🇺🇸 US ENGLISH VERSION
+## 🌐 ENGLISH VERSION
 
 <div align="center">
 
