@@ -2,8 +2,8 @@
 
 # 👋 Hi, I'm txltedxgod
 
-### Senior Software & AI Infrastructure Engineer
-**Distributed Systems · LLM & AI Infrastructure · High-Throughput Gateways · Cloud-Native Architecture**
+### Software & AI Infrastructure Engineer
+**Distributed Systems · LLM & Backend Engineering · High-Performance Tools · Cloud-Native**
 
 <br/>
 
@@ -14,9 +14,9 @@
 <br/>
 
 ```text
-> Specialization : Distributed Systems, LLM Orchestration, Memory-Safe Microservices & Cloud-Native FinOps
-> Primary Stacks : Python 3.12 · Go 1.22 · Rust · Modern C++17 · TypeScript · C# / .NET 8
-> Infrastructure : Kubernetes · Docker · Kafka · Redis · PostgreSQL · Terraform · Prometheus · Grafana
+> Focus Areas    : Backend Development, LLM Pipelines, Distributed Systems & Tooling
+> Core Stacks    : Python 3.12 · Go 1.22 · Rust · Modern C++17 · TypeScript · C# / .NET 8
+> Infrastructure : Kubernetes · Docker · Kafka · Redis · PostgreSQL · Terraform · Prometheus
 ```
 
 </div>
@@ -129,5 +129,5 @@
 ---
 
 <div align="center">
-  <sub>Engineered with production reliability, performance & cloud-native best practices</sub>
+  <sub>Building clean, reliable & scalable software</sub>
 </div>
