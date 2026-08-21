@@ -15,7 +15,7 @@
 
 ```text
 > Focus Areas    : Backend Development, LLM Pipelines, Distributed Systems & Tooling
-> Core Stacks    : Python 3.12 · Go 1.22 · Rust · Modern C++17 · TypeScript · C# / .NET 8
+> Core Stacks    : Python 3.12 · Go 1.22 · Rust · Modern C++17 · TypeScript · HTML&CSS3
 > Infrastructure : Kubernetes · Docker · Kafka · Redis · PostgreSQL · Terraform · Prometheus
 ```
 
