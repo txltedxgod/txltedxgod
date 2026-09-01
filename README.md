@@ -18,6 +18,30 @@
 [![Public Repos](https://img.shields.io/badge/Public_Projects-70+-58a6ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/txltedxgod?tab=repositories)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&labelColor=0d1117)](https://opensource.org/licenses/MIT)
 
+<br/>
+
+<!-- Featured Live Showcase Buttons -->
+[![Live TMA Demo](https://img.shields.io/badge/📱_Live_TMA_Demo-7_Mini_Apps_Suite-00f2fe?style=for-the-badge&labelColor=0d1117)](https://txltedxgod.github.io/tma-portfolio-suite/)
+[![Personal Portfolio](https://img.shields.io/badge/🌐_Portfolio_Website-txltedxgod.github.io-7928ca?style=for-the-badge&labelColor=0d1117)](https://txltedxgod.github.io/)
+
+<br/>
+
+<!-- Core Tech Stack Badges -->
+[![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/txltedxgod)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/txltedxgod)
+[![aiogram 3](https://img.shields.io/badge/aiogram_3.x-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://github.com/txltedxgod)
+[![Telegram Mini Apps](https://img.shields.io/badge/Telegram_Mini_Apps-0088cc?style=flat-square&logo=telegram&logoColor=white)](https://txltedxgod.github.io/tma-portfolio-suite/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/txltedxgod)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/txltedxgod)
+
+<br/>
+
+<!-- Payment Gateways & Web3 Badges -->
+[![@CryptoBot](https://img.shields.io/badge/@CryptoBot-Crypto_Pay_API-F59E0B?style=flat-square&logo=bitcoin&logoColor=white)](https://t.me/CryptoBot)
+[![xRocket](https://img.shields.io/badge/xRocket-Crypto_Pay-8B5CF6?style=flat-square&logo=rocket&logoColor=white)](https://t.me/xrocket)
+[![Telegram Stars](https://img.shields.io/badge/Telegram_Stars-In--App_Pay-FBBF24?style=flat-square&logo=star&logoColor=black)](https://core.telegram.org/bots/payments-stars)
+[![TON Connect](https://img.shields.io/badge/TON_Connect-Web3_Wallet-0098EA?style=flat-square&logo=ton&logoColor=white)](https://ton.org)
+
 </div>
 
 ---
@@ -92,7 +116,7 @@
 #### 🤖 5. Telegram-боти, Mini Apps (TMA) та Web3-платежі
 | Репозиторій / Проєкт | Стек | Опис |
 | :--- | :--- | :--- |
-| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `JavaScript`, `CSS3`, `Web Audio API` | Пакет із 7 ультра-преміальних Telegram Mini Apps (дизайн Obsidian Glass, Haptic Feedback, мультиязичність RU/EN/UA, роутинг). [Живе демо](https://txltedxgod.github.io/tma-portfolio-suite/). |
+| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Obsidian Glass` | 7 Telegram Mini Apps · [Живе демо](https://txltedxgod.github.io/tma-portfolio-suite/) |
 | 🚀 **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `RollyPay`, `Stripe`, `Dark Glass` | Флагманська SaaS-платформа для продажу AI-ліцензій: особистий кабінет, білінг (RollyPay/Stripe), випуск цифрових ключів, захищена роздача клієнтів (ПК/APK). |
 | 💳 **[Crypto & Web3 Payment Integrations](https://github.com/txltedxgod)** | `Crypto Pay API`, `xRocket`, `Telegram Stars`, `TON Connect` | Повноцінна інтеграція платіжних шлюзів у Telegram: прийом криптовалюти через @CryptoBot та xRocket, оплата зірками Stars, обробка вебхуків та Escrow-архітектура. |
 | 🛒 **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Alembic`, `Docker` | Повнофункціональний бот-магазин: каталог, кошик, FSM-оформлення замовлень, реферальна система, промокоди та адмін-панель. |
@@ -174,7 +198,7 @@
 #### 🤖 5. Telegram Bots, Mini Apps (TMA) & Web3 Payments
 | Repository / Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `JavaScript`, `CSS3`, `Web Audio API` | Suite of 7 ultra-premium Telegram Mini Apps (Obsidian Glass styling, Haptic Feedback, RU/EN/UA i18n, universal routing). [Live Demo](https://txltedxgod.github.io/tma-portfolio-suite/). |
+| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Obsidian Glass` | 7 Telegram Mini Apps · [Live Demo](https://txltedxgod.github.io/tma-portfolio-suite/) |
 | 🚀 **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `RollyPay`, `Stripe`, `Dark Glass` | Flagship SaaS platform for AI license sales: user dashboard, multi-gateway checkout (RollyPay/Stripe), automated license issuance & protected build downloads. |
 | 💳 **[Crypto & Web3 Payment Integrations](https://github.com/txltedxgod)** | `Crypto Pay API`, `xRocket`, `Telegram Stars`, `TON Connect` | Production-grade crypto and fiat checkout flows in Telegram: @CryptoBot, xRocket, Telegram Stars, secure webhook verification, and escrow trade flows. |
 | 🛒 **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Alembic`, `Docker` | Full-featured e-commerce bot: catalog, interactive cart, FSM checkout, promo codes, referral system, and admin broadcast panel. |
@@ -256,7 +280,7 @@
 #### 🤖 5. Telegram-боты, Mini Apps (TMA) и Web3-платежи
 | Репозиторий / Проект | Стек | Описание |
 | :--- | :--- | :--- |
-| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `JavaScript`, `CSS3`, `Web Audio API` | Пакет из 7 ультра-премиальных Telegram Mini Apps (стиль Obsidian Glass, Haptic Feedback, мультиязычность RU/EN/UA, роутинг). [Живое демо](https://txltedxgod.github.io/tma-portfolio-suite/). |
+| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Obsidian Glass` | 7 Telegram Mini Apps · [Живое демо](https://txltedxgod.github.io/tma-portfolio-suite/) |
 | 🚀 **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `RollyPay`, `Stripe`, `Dark Glass` | Флагманская SaaS-платформа для продажи AI-лицензий: личный кабинет, биллинг (RollyPay/Stripe), выпуск цифровых ключей, защищенная раздача сборок (ПК/APK). |
 | 💳 **[Crypto & Web3 Payment Integrations](https://github.com/txltedxgod)** | `Crypto Pay API`, `xRocket`, `Telegram Stars`, `TON Connect` | Полноценная интеграция платежных шлюзов в Telegram: прием криптовалюты через @CryptoBot и xRocket, оплата Telegram Stars, обработка вебхуков и Escrow-архитектура. |
 | 🛒 **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Alembic`, `Docker` | Полнофункциональный бот-магазин: каталог, корзина, FSM-оформление заказов, реферальная система, промокоды и админ-панель. |
