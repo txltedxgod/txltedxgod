@@ -42,6 +42,7 @@
 | :--- | :--- |
 | **Мови програмування** | `Python` · `Go (Golang)` · `Rust` · `C++17` · `TypeScript` · `C# (.NET 8)` · `SQL` |
 | **AI / ML & LLM** | `RAG (RRF / GraphRAG)` · `LoRA / QLoRA` · `DSPy` · `Vector Cache` · `LLM Guardrails` · `pgvector` · `PyTorch` |
+| **Telegram & Web3 Фінанси** | `Telegram Mini Apps (TMA)` · `aiogram 3.x` · `CryptoBot (Crypto Pay API)` · `xRocket Pay` · `Telegram Stars` · `TON Connect` · `Escrow` |
 | **Розподілені системи** | `Event-Driven (Kafka / CDC)` · `gRPC / Protobuf` · `CRDTs` · `Commit-Log Brokers` · `Message Queues` · `WebSockets` |
 | **Хмара та DevOps** | `Kubernetes (K8s)` · `Docker & Compose` · `Helm 3` · `Terraform (IaC)` · `Ansible` · `GitHub Actions CI/CD` |
 | **Бази даних і кешування** | `PostgreSQL (WAL/Partman)` · `Redis` · `SQLite` · `SQLAlchemy 2.0 (Async)` · `Alembic` · `In-Memory KV` |
@@ -88,6 +89,15 @@
 | ☁️ **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | `Terraform HCL`, `AWS`, `GCP` | Модульні шаблони Infrastructure as Code: Multi-AZ VPC, EKS Cluster, Aurora RDS, IAM-політики. |
 | 🔒 **[ansible-hardening](https://github.com/txltedxgod/ansible-hardening)** | `Ansible`, `Linux Kernel Tuning` | Плейбуки для посилення безпеки Linux серверів згідно зі стандартами CIS benchmark та тюнінгом sysctl. |
 
+#### 🤖 5. Telegram-боти, Mini Apps (TMA) та Web3-платежі
+| Репозиторій / Проєкт | Стек | Опис |
+| :--- | :--- | :--- |
+| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `JavaScript`, `CSS3`, `Web Audio API` | Пакет із 7 ультра-преміальних Telegram Mini Apps (дизайн Obsidian Glass, Haptic Feedback, мультиязичність RU/EN/UA, роутинг). [Живе демо](https://txltedxgod.github.io/tma-portfolio-suite/). |
+| 🚀 **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `RollyPay`, `Stripe`, `Dark Glass` | Флагманська SaaS-платформа для продажу AI-ліцензій: особистий кабінет, білінг (RollyPay/Stripe), випуск цифрових ключів, захищена роздача клієнтів (ПК/APK). |
+| 💳 **[Crypto & Web3 Payment Integrations](https://github.com/txltedxgod)** | `Crypto Pay API`, `xRocket`, `Telegram Stars`, `TON Connect` | Повноцінна інтеграція платіжних шлюзів у Telegram: прийом криптовалюти через @CryptoBot та xRocket, оплата зірками Stars, обробка вебхуків та Escrow-архітектура. |
+| 🛒 **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Alembic`, `Docker` | Повнофункціональний бот-магазин: каталог, кошик, FSM-оформлення замовлень, реферальна система, промокоди та адмін-панель. |
+| 💰 **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Docker`, `Cloud Run` | Бот для обліку фінансів із деплоєм у Google Cloud Run, підтримкою мультивалютності та швидким логуванням витрат. |
+
 <div align="right">
   <a href="#-hi-im-txltedxgod">⬆️ Нагору до вибору мови</a>
 </div>
@@ -114,6 +124,7 @@
 | :--- | :--- |
 | **Languages** | `Python` · `Go (Golang)` · `Rust` · `C++17` · `TypeScript` · `C# (.NET 8)` · `SQL` |
 | **AI / ML & LLM** | `RAG (RRF / GraphRAG)` · `LoRA / QLoRA` · `DSPy` · `Vector Cache` · `LLM Guardrails` · `pgvector` · `PyTorch` |
+| **Telegram & Web3 Payments** | `Telegram Mini Apps (TMA)` · `aiogram 3.x` · `@CryptoBot (Crypto Pay API)` · `xRocket Pay` · `Telegram Stars` · `TON Connect` · `Escrow` |
 | **Distributed Systems** | `Event-Driven (Kafka / CDC)` · `gRPC / Protobuf` · `CRDTs` · `Commit-Log Brokers` · `Message Queues` · `WebSockets` |
 | **Cloud & DevOps** | `Kubernetes (K8s)` · `Docker & Compose` · `Helm 3` · `Terraform (IaC)` · `Ansible` · `GitHub Actions CI/CD` |
 | **Databases & Caching** | `PostgreSQL (WAL/Partman)` · `Redis` · `SQLite` · `SQLAlchemy 2.0 (Async)` · `Alembic` · `In-Memory KV` |
@@ -160,6 +171,15 @@
 | ☁️ **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | `Terraform HCL`, `AWS`, `GCP` | Production modular Infrastructure as Code blueprints: Multi-AZ VPC, EKS Cluster, Aurora RDS, IAM. |
 | 🔒 **[ansible-hardening](https://github.com/txltedxgod/ansible-hardening)** | `Ansible`, `Linux Kernel Tuning` | Production Linux server security hardening, CIS benchmark compliance, and sysctl tuning. |
 
+#### 🤖 5. Telegram Bots, Mini Apps (TMA) & Web3 Payments
+| Repository / Project | Tech Stack | Highlights |
+| :--- | :--- | :--- |
+| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `JavaScript`, `CSS3`, `Web Audio API` | Suite of 7 ultra-premium Telegram Mini Apps (Obsidian Glass styling, Haptic Feedback, RU/EN/UA i18n, universal routing). [Live Demo](https://txltedxgod.github.io/tma-portfolio-suite/). |
+| 🚀 **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `RollyPay`, `Stripe`, `Dark Glass` | Flagship SaaS platform for AI license sales: user dashboard, multi-gateway checkout (RollyPay/Stripe), automated license issuance & protected build downloads. |
+| 💳 **[Crypto & Web3 Payment Integrations](https://github.com/txltedxgod)** | `Crypto Pay API`, `xRocket`, `Telegram Stars`, `TON Connect` | Production-grade crypto and fiat checkout flows in Telegram: @CryptoBot, xRocket, Telegram Stars, secure webhook verification, and escrow trade flows. |
+| 🛒 **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Alembic`, `Docker` | Full-featured e-commerce bot: catalog, interactive cart, FSM checkout, promo codes, referral system, and admin broadcast panel. |
+| 💰 **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Docker`, `Cloud Run` | Personal finance tracker bot running on Google Cloud Run with multi-currency balance rollups and expense insights. |
+
 <div align="right">
   <a href="#-hi-im-txltedxgod">⬆️ Back to Top / Language Menu</a>
 </div>
@@ -186,6 +206,7 @@
 | :--- | :--- |
 | **Языки программирования** | `Python` · `Go (Golang)` · `Rust` · `C++17` · `TypeScript` · `C# (.NET 8)` · `SQL` |
 | **AI / ML & LLM** | `RAG (RRF / GraphRAG)` · `LoRA / QLoRA` · `DSPy` · `Vector Cache` · `LLM Guardrails` · `pgvector` · `PyTorch` |
+| **Telegram & Web3 Платежи** | `Telegram Mini Apps (TMA)` · `aiogram 3.x` · `@CryptoBot (Crypto Pay API)` · `xRocket Pay` · `Telegram Stars` · `TON Connect` · `Escrow` |
 | **Распределенные системы** | `Event-Driven (Kafka / CDC)` · `gRPC / Protobuf` · `CRDTs` · `Commit-Log Brokers` · `Message Queues` · `WebSockets` |
 | **Облако и DevOps** | `Kubernetes (K8s)` · `Docker & Compose` · `Helm 3` · `Terraform (IaC)` · `Ansible` · `GitHub Actions CI/CD` |
 | **Базы данных и кэширование** | `PostgreSQL (WAL/Partman)` · `Redis` · `SQLite` · `SQLAlchemy 2.0 (Async)` · `Alembic` · `In-Memory KV` |
@@ -231,6 +252,15 @@
 | ☸️ **[k8s-pod-autoscale](https://github.com/txltedxgod/k8s-pod-autoscale)** | `Go`, `client-go`, `Prometheus` | Собственный контроллер Kubernetes для динамического масштабирования подов на основе очередей и метрик. |
 | ☁️ **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | `Terraform HCL`, `AWS`, `GCP` | Модульные шаблоны Infrastructure as Code: Multi-AZ VPC, EKS Cluster, Aurora RDS, IAM-политики. |
 | 🔒 **[ansible-hardening](https://github.com/txltedxgod/ansible-hardening)** | `Ansible`, `Linux Kernel Tuning` | Плейбуки для усиления безопасности Linux серверов по стандартам CIS benchmark с тюнингом sysctl. |
+
+#### 🤖 5. Telegram-боты, Mini Apps (TMA) и Web3-платежи
+| Репозиторий / Проект | Стек | Описание |
+| :--- | :--- | :--- |
+| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `JavaScript`, `CSS3`, `Web Audio API` | Пакет из 7 ультра-премиальных Telegram Mini Apps (стиль Obsidian Glass, Haptic Feedback, мультиязычность RU/EN/UA, роутинг). [Живое демо](https://txltedxgod.github.io/tma-portfolio-suite/). |
+| 🚀 **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `RollyPay`, `Stripe`, `Dark Glass` | Флагманская SaaS-платформа для продажи AI-лицензий: личный кабинет, биллинг (RollyPay/Stripe), выпуск цифровых ключей, защищенная раздача сборок (ПК/APK). |
+| 💳 **[Crypto & Web3 Payment Integrations](https://github.com/txltedxgod)** | `Crypto Pay API`, `xRocket`, `Telegram Stars`, `TON Connect` | Полноценная интеграция платежных шлюзов в Telegram: прием криптовалюты через @CryptoBot и xRocket, оплата Telegram Stars, обработка вебхуков и Escrow-архитектура. |
+| 🛒 **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Alembic`, `Docker` | Полнофункциональный бот-магазин: каталог, корзина, FSM-оформление заказов, реферальная система, промокоды и админ-панель. |
+| 💰 **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Docker`, `Cloud Run` | Бот учета финансов с деплоем в Google Cloud Run, поддержкой мультивалютности и быстрым логгированием расходов. |
 
 <div align="right">
   <a href="#-hi-im-txltedxgod">⬆️ Наверх к выбору языка</a>
