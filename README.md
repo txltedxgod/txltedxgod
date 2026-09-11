@@ -1,4 +1,82 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/txltedxgod/txltedxgod/main/assets/header.svg" width="100%" alt="txltedxgod Header Banner" />
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://txltedxgod.github.io/"><img src="https://img.shields.io/badge/%F0%9F%8C%90_Website-txltedxgod.github.io-00f2fe?style=for-the-badge&labelColor=0d1117" alt="Website" /></a>
+  <a href="https://txltedxgod.github.io/tma-portfolio-suite/"><img src="https://img.shields.io/badge/%F0%9F%93%B1_TMA_Suite-Live_Mini_Apps-8a2be2?style=for-the-badge&labelColor=0d1117" alt="TMA Suite" /></a>
+  <a href="https://t.me/txltedxgod"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Telegram-@txltedxgod-2496ED?style=for-the-badge&labelColor=0d1117&logo=telegram&logoColor=white" alt="Telegram" /></a>
+  <a href="https://github.com/txltedxgod?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%93%A6_Repositories-70+_Projects-27c93f?style=for-the-badge&labelColor=0d1117" alt="Repos" /></a>
+</div>
+
+<br/>
+
+### ⚡ about
+
+Software engineer & systems builder focused on high-throughput backend architecture, distributed systems, and AI/ML infrastructure. Passionate about low-level performance, event-driven pipelines, and cloud-native engineering.
+
+- 🔭 **Focus**: High-concurrency systems, low-latency streaming pipelines, and fault-tolerant infrastructure.
+- ⚙️ **Stack**: Deep focus on Rust, Go, Modern C++17, and async Python systems.
+- 📍 **Portfolio**: 70+ open-source tools, AI engines, Telegram Mini Apps, and production SaaS architectures.
+
+<br/>
+
+### 🛠️ core skills
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=rust,go,cpp,python,cs,ts,postgres,redis,kafka,docker,kubernetes,linux,git,fastapi,pytorch&perline=15" alt="Tech Stack Icons" />
+  </a>
+</p>
+
+- **languages**: `rust` • `go` • `c++17` • `python 3.12` • `c# (.net 8)` • `typescript` • `sql`
+- **systems & ai**: `PyTorch` • `pgvector` • `RAG (RRF / GraphRAG)` • `LoRA / QLoRA` • `Vector Quantization (SQ8)` • `LLM Guardrails`
+- **backend & data**: `FastAPI` • `Axum / Tokio` • `Kafka & CDC (Outbox Pattern)` • `Redis` • `PostgreSQL` • `RabbitMQ` • `gRPC / Protobuf`
+- **infra & devops**: `Docker & Compose` • `Kubernetes` • `Helm 3` • `Terraform` • `Linux Hardening` • `Prometheus & Grafana`
+
+<br/>
+
+### 📈 activity & stats
+
+<div align="center">
+  <a href="https://github.com/txltedxgod">
+    <img src="https://github-readme-activity-graph-omega-five.vercel.app/graph?username=txltedxgod&theme=react&hide_border=true&area=true" width="100%" alt="Contribution Graph" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=txltedxgod&show_icons=true&theme=tokyo-night&hide_border=true&border_radius=10" height="165" alt="txltedxgod GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=txltedxgod&theme=tokyo-night&hide_border=true&border_radius=10" height="165" alt="GitHub Streak" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=txltedxgod&layout=compact&theme=tokyo-night&hide_border=true&border_radius=10" height="165" alt="Top Languages" />
+</div>
+
+<br/>
+
+### 📌 featured projects
+
+| Repository | Tech Stack | Highlights |
+| :--- | :--- | :--- |
+| 🛡️ **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum`, `Tower` | Ultra-fast API Gateway & WAF with dynamic rate limiting and JWT RBAC policies (150k+ QPS). |
+| ⚡ **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL`, `POSIX` | High-throughput in-memory key-value store with binary Write-Ahead Log (WAL) and custom TCP protocol. |
+| 📡 **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap`, `WebSocket` | Distributed commit-log message broker with consumer groups, automatic rebalancing, and live web dashboard. |
+| 🧠 **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy`, `Docker` | Next-generation RAG engine with Reciprocal Rank Fusion (RRF), multi-query generation, and cross-encoder reranking. |
+| 🚀 **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `FastAPI`, `Stripe`, `Dark Glass` | Commercial SaaS platform for AI software licensing, automated crypto/fiat billing, and digital key distribution. |
+| 💎 **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Web3` | Suite of 7 Telegram Mini Apps featuring Obsidian Glass UI, CryptoBot / xRocket payments, and TON Connect. |
+
+<br/>
+
+---
+
+<details>
+<summary><b>📂 Expand Complete Engineering Archive (70+ Repositories & Multilingual Docs)</b></summary>
+
+<br/>
+
+<div align="center">
 
 # 👋 Hi, I'm txltedxgod
 
@@ -310,3 +388,5 @@
 <div align="center">
   <sub>Building clean, reliable & scalable software · 2026</sub>
 </div>
+
+</details>

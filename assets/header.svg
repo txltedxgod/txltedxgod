@@ -1,0 +1,186 @@
+<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="960" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080b11"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a0e17"/>
+    </linearGradient>
+
+    <!-- Neon Accents -->
+    <linearGradient id="cyan-glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00c6ff"/>
+    </linearGradient>
+
+    <linearGradient id="purple-glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="50%" stop-color="#9d4edd"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+
+    <linearGradient id="card-border" x1="0" y1="0" x2="960" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="30%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#9d4edd" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#30363d"/>
+    </linearGradient>
+
+    <linearGradient id="accent-line" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#9d4edd"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+
+    <!-- Radial Glows -->
+    <radialGradient id="top-glow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="bottom-right-glow" cx="85%" cy="90%" r="50%">
+      <stop offset="0%" stop-color="#8a2be2" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "SF Pro Display", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      letter-spacing: 4px;
+      fill: #ffffff;
+    }
+    .subtitle {
+      font-family: "JetBrains Mono", "Fira Code", monospace, -apple-system, sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 2.5px;
+      fill: #79c0ff;
+    }
+    .desc {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      fill: #8b949e;
+      letter-spacing: 0.5px;
+    }
+    .terminal-tag {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      fill: #38ef7d;
+    }
+    .badge-text {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #c9d1d9;
+    }
+    .status-dot {
+      animation: pulse 2s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Base Card Background -->
+  <rect width="960" height="260" rx="16" fill="url(#bg-grad)"/>
+  
+  <!-- Subtle Grid -->
+  <rect width="960" height="260" rx="16" fill="url(#grid)"/>
+
+  <!-- Radial Glow Accents -->
+  <rect width="960" height="260" rx="16" fill="url(#top-glow)"/>
+  <rect width="960" height="260" rx="16" fill="url(#bottom-right-glow)"/>
+
+  <!-- Sleek Border -->
+  <rect x="1" y="1" width="958" height="258" rx="15" fill="none" stroke="url(#card-border)" stroke-width="1.5"/>
+
+  <!-- Top Terminal Bar -->
+  <g transform="translate(36, 32)">
+    <!-- Traffic lights -->
+    <circle cx="6" cy="6" r="5" fill="#ff5f56" opacity="0.8"/>
+    <circle cx="24" cy="6" r="5" fill="#ffbd2e" opacity="0.8"/>
+    <circle cx="42" cy="6" r="5" fill="#27c93f" opacity="0.8"/>
+    
+    <text x="64" y="10" class="terminal-tag">> whoami --focus "systems &amp; distributed infra"</text>
+  </g>
+
+  <!-- Main Identity Header -->
+  <g transform="translate(36, 105)">
+    <text x="0" y="0" class="title">TXLTEDXGOD</text>
+    <circle cx="340" cy="-12" r="5" fill="#00f2fe" class="status-dot"/>
+  </g>
+
+  <!-- Accent Divider Line -->
+  <rect x="36" y="122" width="520" height="2" fill="url(#accent-line)" rx="1"/>
+
+  <!-- Subtitle / Role -->
+  <text x="36" y="148" class="subtitle">SYSTEMS ARCHITECT &amp; BACKEND ENGINEER</text>
+
+  <!-- Description Line -->
+  <text x="36" y="176" class="desc">High-Throughput Distributed Systems · Low-Level Tooling · AI / ML Infrastructure · Cloud-Native</text>
+
+  <!-- Badges / Tags Strip -->
+  <g transform="translate(36, 204)">
+    <!-- Badge 1: Rust -->
+    <rect x="0" y="0" width="70" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="35" y="16" text-anchor="middle" class="badge-text">Rust</text>
+
+    <!-- Badge 2: Go -->
+    <rect x="80" y="0" width="60" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="110" y="16" text-anchor="middle" class="badge-text">Go</text>
+
+    <!-- Badge 3: C++17 -->
+    <rect x="150" y="0" width="72" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="186" y="16" text-anchor="middle" class="badge-text">C++17</text>
+
+    <!-- Badge 4: Python -->
+    <rect x="232" y="0" width="80" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="272" y="16" text-anchor="middle" class="badge-text">Python</text>
+
+    <!-- Badge 5: Kubernetes -->
+    <rect x="322" y="0" width="105" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="374" y="16" text-anchor="middle" class="badge-text">Kubernetes</text>
+
+    <!-- Badge 6: Kafka -->
+    <rect x="437" y="0" width="75" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="474" y="16" text-anchor="middle" class="badge-text">Kafka</text>
+  </g>
+
+  <!-- Decorative Right-Side Graphic: Modern Tech Vector Matrix -->
+  <g transform="translate(740, 45)" opacity="0.85">
+    <!-- Outer Octagon/Hex Ring -->
+    <polygon points="100,10 170,50 170,130 100,170 30,130 30,50" fill="none" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <polygon points="100,25 155,57 155,123 100,155 45,123 45,57" fill="none" stroke="#00f2fe" stroke-width="1.5" opacity="0.6"/>
+    <polygon points="100,45 135,65 135,115 100,135 65,115 65,65" fill="#161b22" stroke="#9d4edd" stroke-width="1.5"/>
+    
+    <!-- Center Core Node -->
+    <circle cx="100" cy="90" r="14" fill="#00f2fe" opacity="0.2"/>
+    <circle cx="100" cy="90" r="7" fill="#00f2fe"/>
+    
+    <!-- Radiating Traces -->
+    <line x1="100" y1="25" x2="100" y2="5" stroke="#00f2fe" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="100" cy="5" r="3" fill="#00f2fe"/>
+
+    <line x1="155" y1="57" x2="180" y2="42" stroke="#9d4edd" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="180" cy="42" r="3" fill="#9d4edd"/>
+
+    <line x1="155" y1="123" x2="180" y2="138" stroke="#00f2fe" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="180" cy="138" r="3" fill="#00f2fe"/>
+
+    <line x1="45" y1="57" x2="20" y2="42" stroke="#9d4edd" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="20" cy="42" r="3" fill="#9d4edd"/>
+
+    <line x1="45" y1="123" x2="20" y2="138" stroke="#00f2fe" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="20" cy="138" r="3" fill="#00f2fe"/>
+
+    <!-- Status Text -->
+    <text x="100" y="195" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#8b949e" letter-spacing="1">SYSTEMS ACTIVE</text>
+  </g>
+</svg>
