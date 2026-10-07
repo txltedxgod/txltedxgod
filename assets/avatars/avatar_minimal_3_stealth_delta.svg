@@ -1,0 +1,42 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg-glow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#12151e"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </radialGradient>
+    <linearGradient id="wing-left" x1="310" y1="270" x2="506" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#323a4b"/>
+      <stop offset="100%" stop-color="#0e1017"/>
+    </linearGradient>
+    <linearGradient id="wing-right" x1="714" y1="270" x2="518" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#282234"/>
+      <stop offset="100%" stop-color="#0a0812"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg-glow3)"/>
+
+  <!-- Subtle circles -->
+  <circle cx="512" cy="512" r="300" stroke="#465069" stroke-opacity="0.25" stroke-width="1.5"/>
+  <circle cx="512" cy="512" r="250" stroke="#00f2fe" stroke-opacity="0.15" stroke-dasharray="6 6"/>
+
+  <!-- Left Wing -->
+  <polygon points="506,270 310,680 400,680 506,440" fill="url(#wing-left)" stroke="#00f2fe" stroke-width="2"/>
+
+  <!-- Right Wing -->
+  <polygon points="518,270 714,680 624,680 518,440" fill="url(#wing-right)" stroke="#8a2be2" stroke-width="2"/>
+
+  <!-- Crossbar -->
+  <rect x="385" y="520" width="254" height="40" fill="#1e2430" stroke="#465069" stroke-width="1.5"/>
+  <line x1="385" y1="520" x2="639" y2="520" stroke="#00f2fe" stroke-width="2"/>
+
+  <!-- Typography -->
+  <text x="512" y="760" text-anchor="middle" fill="#f0f4ff" font-family="monospace" font-size="24" font-weight="bold" letter-spacing="12">T X L T E D</text>
+  <text x="512" y="800" text-anchor="middle" fill="#78859e" font-family="monospace" font-size="14" letter-spacing="4">ENGINEERING &amp; SYSTEMS ARCHITECTURE</text>
+
+  <!-- Brackets -->
+  <path d="M 80,130 L 80,80 L 130,80" stroke="#4b556e" stroke-width="2" fill="none"/>
+  <path d="M 944,130 L 944,80 L 894,80" stroke="#4b556e" stroke-width="2" fill="none"/>
+  <path d="M 80,894 L 80,944 L 130,944" stroke="#4b556e" stroke-width="2" fill="none"/>
+  <path d="M 944,894 L 944,944 L 894,944" stroke="#4b556e" stroke-width="2" fill="none"/>
+</svg>

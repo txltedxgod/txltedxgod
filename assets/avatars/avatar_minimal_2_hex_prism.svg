@@ -1,0 +1,64 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg-glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#12141c"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </radialGradient>
+    <linearGradient id="top-facet" x1="512" y1="272" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#323a4b"/>
+      <stop offset="100%" stop-color="#161922"/>
+    </linearGradient>
+    <linearGradient id="left-facet" x1="304" y1="392" x2="512" y2="752" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#181c26"/>
+      <stop offset="100%" stop-color="#080a0e"/>
+    </linearGradient>
+    <linearGradient id="right-facet" x1="720" y1="392" x2="512" y2="752" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e1828"/>
+      <stop offset="100%" stop-color="#090710"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg-glow2)"/>
+
+  <!-- Radar & Reticle -->
+  <line x1="512" y1="100" x2="512" y2="924" stroke="#465069" stroke-opacity="0.3" stroke-dasharray="6 6"/>
+  <line x1="100" y1="512" x2="924" y2="512" stroke="#465069" stroke-opacity="0.3" stroke-dasharray="6 6"/>
+  <circle cx="512" cy="512" r="330" stroke="#465069" stroke-opacity="0.25" stroke-dasharray="4 8"/>
+  <circle cx="512" cy="512" r="250" stroke="#00f2fe" stroke-opacity="0.15"/>
+
+  <!-- 3D Isometric Hex Prism -->
+  <!-- Top Face -->
+  <polygon points="512,272 720,392 512,512 304,392" fill="url(#top-facet)" stroke="#465069" stroke-width="1.5"/>
+  <line x1="512" y1="272" x2="720" y2="392" stroke="#00f2fe" stroke-width="2"/>
+  <line x1="512" y1="272" x2="304" y2="392" stroke="#00f2fe" stroke-width="2"/>
+
+  <!-- Left Face -->
+  <polygon points="304,392 512,512 512,752 304,632" fill="url(#left-facet)" stroke="#465069" stroke-width="1.5"/>
+
+  <!-- Right Face -->
+  <polygon points="720,392 512,512 512,752 720,632" fill="url(#right-facet)" stroke="#465069" stroke-width="1.5"/>
+  <line x1="720" y1="392" x2="720" y2="632" stroke="#8a2be2" stroke-width="2"/>
+  <line x1="720" y1="632" x2="512" y2="752" stroke="#8a2be2" stroke-width="2"/>
+
+  <!-- Center Y Seams -->
+  <line x1="512" y1="272" x2="512" y2="512" stroke="#00f2fe" stroke-width="2"/>
+  <line x1="512" y1="512" x2="304" y2="392" stroke="#00f2fe" stroke-width="2"/>
+  <line x1="512" y1="512" x2="720" y2="392" stroke="#00f2fe" stroke-width="2"/>
+  <line x1="512" y1="512" x2="512" y2="752" stroke="#00f2fe" stroke-width="2"/>
+
+  <!-- Negative Space T in Core -->
+  <rect x="432" y="480" width="160" height="24" fill="#080a0e"/>
+  <rect x="496" y="504" width="32" height="90" fill="#080a0e"/>
+
+  <!-- Crosshairs -->
+  <path d="M 100,90 L 100,110 M 90,100 L 110,100" stroke="#8c9bb4" stroke-width="1.5"/>
+  <path d="M 924,90 L 924,110 M 914,100 L 934,100" stroke="#8c9bb4" stroke-width="1.5"/>
+  <path d="M 100,914 L 100,934 M 90,924 L 110,924" stroke="#8c9bb4" stroke-width="1.5"/>
+  <path d="M 924,914 L 924,934 M 914,924 L 934,924" stroke="#8c9bb4" stroke-width="1.5"/>
+
+  <!-- Micro-text -->
+  <text x="130" y="105" fill="#8c9bb4" font-family="monospace" font-size="14" font-weight="bold">+ 0x7E PROTOCOL</text>
+  <text x="750" y="105" fill="#8c9bb4" font-family="monospace" font-size="14" font-weight="bold">CRYPTOGRAPHIC CORE</text>
+  <text x="130" y="930" fill="#8c9bb4" font-family="monospace" font-size="14" font-weight="bold">HEXAGONAL MONOLITH // TX</text>
+  <text x="830" y="930" fill="#8c9bb4" font-family="monospace" font-size="14" font-weight="bold">SYS.ACTIVE</text>
+</svg>

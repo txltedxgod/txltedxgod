@@ -1,0 +1,61 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#141824"/>
+      <stop offset="100%" stop-color="#07080b"/>
+    </radialGradient>
+    <linearGradient id="t-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c3342"/>
+      <stop offset="100%" stop-color="#12151c"/>
+    </linearGradient>
+    <linearGradient id="cyan-edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="x-bar1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e2330"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="x-bar2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#221e30"/>
+      <stop offset="100%" stop-color="#0a0910"/>
+    </linearGradient>
+    <pattern id="dot-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="24" cy="24" r="1.5" fill="#c8dcff" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bg-glow)"/>
+  <rect width="1024" height="1024" fill="url(#dot-grid)"/>
+
+  <!-- Orbital circles -->
+  <circle cx="512" cy="512" r="300" stroke="#00f2fe" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <circle cx="512" cy="512" r="380" stroke="#8c96b4" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- X Diagonal 1 -->
+  <polygon points="310,420 390,390 714,650 634,680" fill="url(#x-bar1)" stroke="#00f2fe" stroke-opacity="0.7" stroke-width="1.5"/>
+  <!-- X Diagonal 2 -->
+  <polygon points="714,420 634,390 310,650 390,680" fill="url(#x-bar2)" stroke="#8a2be2" stroke-opacity="0.7" stroke-width="1.5"/>
+
+  <!-- T Stem -->
+  <rect x="462" y="394" width="100" height="250" fill="url(#t-bar)" stroke="#465069" stroke-width="1.5"/>
+  <!-- T Bar -->
+  <rect x="292" y="310" width="440" height="84" fill="url(#t-bar)" stroke="#465069" stroke-width="1.5"/>
+  <line x1="292" y1="310" x2="732" y2="310" stroke="url(#cyan-edge)" stroke-width="2.5"/>
+
+  <!-- Center Laser Slit -->
+  <line x1="512" y1="430" x2="512" y2="600" stroke="#00f2fe" stroke-width="2"/>
+
+  <!-- Corner Brackets -->
+  <path d="M 80,140 L 80,80 L 140,80" stroke="#4b556e" stroke-width="2" fill="none"/>
+  <path d="M 944,140 L 944,80 L 884,80" stroke="#4b556e" stroke-width="2" fill="none"/>
+  <path d="M 80,884 L 80,944 L 140,944" stroke="#4b556e" stroke-width="2" fill="none"/>
+  <path d="M 944,884 L 944,944 L 884,944" stroke="#4b556e" stroke-width="2" fill="none"/>
+
+  <!-- Micro-typography -->
+  <text x="90" y="105" fill="#8c9bb4" font-family="monospace" font-size="14" font-weight="bold">// SYS.TXLTED</text>
+  <text x="760" y="105" fill="#8c9bb4" font-family="monospace" font-size="14" font-weight="bold">COORD: 48.14 // 11.58</text>
+  <text x="90" y="930" fill="#8c9bb4" font-family="monospace" font-size="14" font-weight="bold">MONOLITH ARCHITECTURE</text>
+  <text x="860" y="930" fill="#8c9bb4" font-family="monospace" font-size="14" font-weight="bold">[V10.0]</text>
+</svg>
