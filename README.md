@@ -5,6 +5,8 @@
 <br/>
 
 <div align="center">
+  <a href="#english"><img src="https://img.shields.io/badge/Language-English-238636?style=for-the-badge&labelColor=0d1117" alt="English" /></a>
+  <a href="#українська"><img src="https://img.shields.io/badge/Мова-Українська-005BBB?style=for-the-badge&labelColor=0d1117" alt="Українська" /></a>
   <a href="https://txltedxgod.github.io/"><img src="https://img.shields.io/badge/Website-txltedxgod.github.io-00f2fe?style=for-the-badge&labelColor=0d1117" alt="Website" /></a>
   <a href="https://txltedxgod.github.io/tma-portfolio-suite/"><img src="https://img.shields.io/badge/TMA_Suite-Live_Mini_Apps-8a2be2?style=for-the-badge&labelColor=0d1117" alt="TMA Suite" /></a>
   <a href="https://t.me/txltedxgod"><img src="https://img.shields.io/badge/Telegram-@txltedxgod-2496ED?style=for-the-badge&labelColor=0d1117&logo=telegram&logoColor=white" alt="Telegram" /></a>
@@ -12,49 +14,6 @@
 </div>
 
 <br/>
-
-### about
-
-Software engineer and systems builder focused on high-throughput backend architecture, distributed systems, and AI/ML infrastructure. Passionate about low-level performance, event-driven pipelines, and cloud-native engineering.
-
-- **Focus**: High-concurrency systems, low-latency streaming pipelines, and fault-tolerant infrastructure.
-- **Stack**: Deep focus on Rust, Go, Modern C++17, and async Python systems.
-- **Portfolio**: 70+ open-source tools, AI engines, Telegram Mini Apps, and production SaaS architectures.
-
-<br/>
-
-### core skills
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,go,cpp,python,cs,ts,postgres,redis,kafka,docker,kubernetes,linux,git,fastapi,pytorch&perline=15" alt="Tech Stack Icons" />
-  </a>
-</p>
-
-- **languages**: `rust` • `go` • `c++17` • `python 3.12` • `c# (.net 10)` • `typescript` • `sql`
-- **systems & ai**: `PyTorch` • `pgvector` • `RAG (RRF / GraphRAG)` • `LoRA / QLoRA` • `Vector Quantization (SQ8)` • `LLM Guardrails`
-- **backend & data**: `FastAPI` • `Axum / Tokio` • `Kafka & CDC (Outbox Pattern)` • `Redis` • `PostgreSQL` • `RabbitMQ` • `gRPC / Protobuf`
-- **infra & devops**: `Docker & Compose` • `Kubernetes` • `Helm 3` • `Terraform` • `Linux Hardening` • `Prometheus & Grafana`
-
-<br/>
-
-### featured projects
-
-| Repository | Tech Stack | Highlights |
-| :--- | :--- | :--- |
-| **[telegram-reporter-bot](https://github.com/txltedxgod)** | `Python 3.10+`, `Aiogram 3`, `Pyrogram`, `PostgreSQL` | High-concurrency automated Telegram reporting system with 40+ sessions, sticky proxy farm, killswitch, and live VPS daemon. |
-| **[otkat-generator](https://github.com/txltedxgod)** | `C# WPF (.NET 10)`, `WebView2`, `Canvas JS` | Desktop graphic editor and screenshot annotation tool with hotkey clipboard integration (`Ctrl+V`/`Ctrl+C`), target framing, and censor engine. |
-| **[life-os](https://github.com/txltedxgod)** | `Python`, `HTML5 / Vanilla JS`, `Android APK` | Personal productivity operating system with multi-currency finance tracking (CZK/RUB/EUR/USDT), automated daily reporting, and mobile PWA/APK. |
-| **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum`, `Tower` | Ultra-fast cloud-native API Gateway & WAF with dynamic rate limiting and JWT RBAC policies (150k+ QPS). |
-| **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL`, `POSIX` | High-throughput in-memory key-value store with binary Write-Ahead Log (WAL) and custom TCP protocol. |
-| **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap`, `WebSocket` | Distributed commit-log message broker with consumer groups, automatic rebalancing, and live web dashboard. |
-| **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy`, `Docker` | Next-generation RAG engine with Reciprocal Rank Fusion (RRF), multi-query generation, and cross-encoder reranking. |
-| **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `FastAPI`, `Stripe`, `Dark Glass` | Commercial SaaS platform for AI software licensing, automated crypto/fiat billing, and digital key distribution. |
-| **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Web3` | Suite of 7 Telegram Mini Apps featuring Obsidian Glass UI, CryptoBot / xRocket payments, and TON Connect. |
-
-<br/>
-
-### contribution activity
 
 <div align="center">
   <picture>
@@ -76,50 +35,55 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 ---
 
+<div id="english"></div>
+
+## 🇬🇧 English
+
+### About
+
+Software engineer and systems builder focused on high-throughput backend architecture, distributed systems, and AI/ML infrastructure. Passionate about low-level performance, event-driven pipelines, and cloud-native engineering.
+
+- **Focus**: High-concurrency systems, low-latency streaming pipelines, and fault-tolerant infrastructure.
+- **Stack**: Deep focus on Rust, Go, Modern C++17, and async Python systems.
+- **Portfolio**: 70+ open-source tools, AI engines, Telegram Mini Apps, and production architectures.
+
+<br/>
+
+### Core Skills
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=rust,go,cpp,python,cs,ts,postgres,redis,kafka,docker,kubernetes,linux,git,fastapi,pytorch&perline=15" alt="Tech Stack Icons" />
+  </a>
+</p>
+
+- **Languages**: `rust` • `go` • `c++17` • `python 3.12` • `c# (.net 10)` • `typescript` • `sql`
+- **Systems & AI**: `PyTorch` • `pgvector` • `RAG (RRF / GraphRAG)` • `LoRA / QLoRA` • `Vector Quantization (SQ8)` • `LLM Guardrails`
+- **Backend & Data**: `FastAPI` • `Axum / Tokio` • `Kafka & CDC (Outbox Pattern)` • `Redis` • `PostgreSQL` • `RabbitMQ` • `gRPC / Protobuf`
+- **Infra & DevOps**: `Docker & Compose` • `Kubernetes` • `Helm 3` • `Terraform` • `Linux Hardening` • `Prometheus & Grafana`
+
+<br/>
+
+### Flagship Systems
+
+| Repository | Tech Stack | Highlights |
+| :--- | :--- | :--- |
+| **[telegram-reporter-bot](https://github.com/txltedxgod)** | `Python 3.10+`, `Aiogram 3`, `Pyrogram`, `PostgreSQL` | High-concurrency automated Telegram reporting system with 40+ sessions, sticky proxy farm, killswitch, and live VPS daemon. |
+| **[otkat-generator](https://github.com/txltedxgod)** | `C# WPF (.NET 10)`, `WebView2`, `Canvas JS` | Desktop graphic editor and screenshot annotation tool with hotkey clipboard integration (`Ctrl+V`/`Ctrl+C`), target framing, and censor engine. |
+| **[life-os](https://github.com/txltedxgod)** | `Python`, `HTML5 / Vanilla JS`, `Android APK` | Personal productivity operating system with multi-currency finance tracking (CZK/RUB/EUR/USDT), automated daily reporting, and mobile PWA/APK. |
+| **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum`, `Tower` | Ultra-fast cloud-native API Gateway & WAF with dynamic rate limiting and JWT RBAC policies (150k+ QPS). |
+| **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL`, `POSIX` | High-throughput in-memory key-value store with binary Write-Ahead Log (WAL) and custom TCP protocol. |
+| **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap`, `WebSocket` | Distributed commit-log message broker with consumer groups, automatic rebalancing, and live web dashboard. |
+| **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy`, `Docker` | Next-generation RAG engine with Reciprocal Rank Fusion (RRF), multi-query generation, and cross-encoder reranking. |
+| **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `FastAPI`, `Stripe`, `Dark Glass` | Commercial SaaS platform for AI software licensing, automated crypto/fiat billing, and digital key distribution. |
+| **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Web3` | Suite of 7 Telegram Mini Apps featuring Obsidian Glass UI, CryptoBot / xRocket payments, and TON Connect. |
+
+<br/>
+
 <details>
-<summary><b>Engineering Archive & Multilingual Documentation (70+ Repositories)</b></summary>
+<summary><b>View Complete Architecture Catalog (70+ Repositories)</b></summary>
 
 <br/>
-
-<div align="center">
-
-# txltedxgod
-
-### Software & AI Infrastructure Engineer
-**Distributed Systems · LLM & Backend Engineering · High-Performance Tools · Cloud-Native**
-
-<br/>
-
-[![English](https://img.shields.io/badge/Language-English-238636?style=for-the-badge&labelColor=0d1117)](#english-version)
-[![Українська](https://img.shields.io/badge/Мова-Українська-388bfd?style=for-the-badge&labelColor=0d1117)](#українська-версія)
-[![Русский](https://img.shields.io/badge/Язык-Русский-8957e5?style=for-the-badge&labelColor=0d1117)](#русская-версия)
-
-<br/>
-
-[![GitHub Stars](https://img.shields.io/github/stars/txltedxgod?style=for-the-badge&color=388bfd&labelColor=0d1117)](https://github.com/txltedxgod)
-[![Public Repos](https://img.shields.io/badge/Public_Projects-70+-58a6ff?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/txltedxgod?tab=repositories)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&labelColor=0d1117)](https://opensource.org/licenses/MIT)
-
-<br/>
-
-[![Live TMA Demo](https://img.shields.io/badge/Live_TMA_Demo-7_Mini_Apps_Suite-00f2fe?style=for-the-badge&labelColor=0d1117)](https://txltedxgod.github.io/tma-portfolio-suite/)
-[![Personal Portfolio](https://img.shields.io/badge/Portfolio_Website-txltedxgod.github.io-7928ca?style=for-the-badge&labelColor=0d1117)](https://txltedxgod.github.io/)
-
-</div>
-
----
-
-<div id="english-version"></div>
-
-## English Version
-
-```text
-> Focus Areas    : Backend Engineering, LLM Pipelines, Distributed Systems & System Tooling
-> Core Stacks    : Python 3.12 · Go 1.22 · Rust · Modern C++17 · TypeScript · C# (.NET 10)
-> Infrastructure : Kubernetes · Docker · Kafka · Redis · PostgreSQL · Terraform · Prometheus
-```
-
-### Specialized Categories
 
 #### [1. AI, LLM Infrastructure & RAG Systems]
 | Repository | Tech Stack | Highlights |
@@ -166,56 +130,105 @@ Software engineer and systems builder focused on high-throughput backend archite
 | **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Docker` | Full-featured e-commerce bot: catalog, interactive cart, FSM checkout, promo codes, referral system. |
 | **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Cloud Run` | Personal finance tracker bot running on Google Cloud Run with multi-currency balance rollups. |
 
----
+</details>
 
-<div id="українська-версія"></div>
-
-## Українська Версія
-
-```text
-> Напрями роботи : Бекенд-розробка, LLM-конвеєри, розподілені системи та системні утиліти
-> Основний стек  : Python 3.12 · Go 1.22 · Rust · Modern C++17 · TypeScript · C# (.NET 10)
-> Інфраструктура : Kubernetes · Docker · Kafka · Redis · PostgreSQL · Terraform · Prometheus
-```
-
-### Ключові проєкти
-
-- **[telegram-reporter-bot](https://github.com/txltedxgod)** — Високонавантажена система авто-репортів у Telegram з пулом 40+ сесій, sticky-проксі та авто-відновленням (Oracle Cloud VPS).
-- **[otkat-generator](https://github.com/txltedxgod)** — Десктопний графічний редактор фіксацій на C# WPF (.NET 10) з WebView2, шорткатами `Ctrl+V`/`Ctrl+C` та виділенням цілей.
-- **[life-os](https://github.com/txltedxgod)** — Персональна система продуктивності та обліку фінансів (CZK/RUB/EUR/USDT) з генератором звітів та Android APK.
-- **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** — Ультрашвидкий API-шлюз та WAF на Rust (150k+ QPS).
-- **[turbokv](https://github.com/txltedxgod/turbokv)** — Швидке in-memory key-value сховище на C++17 з бінарним Write-Ahead Log.
-- **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** — Розподілений commit-log брокер повідомлень на Go з веб-дашбордом.
-- **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** — RAG-рушій з Reciprocal Rank Fusion та крос-енкодер переранжуванням.
-- **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** — Набір із 7 Telegram Mini Apps у стилі Obsidian Glass з Web3-платежами.
+<br/>
 
 ---
 
-<div id="русская-версия"></div>
+<div id="українська"></div>
 
-## Русская Версия
+## 🇺🇦 Українська
 
-```text
-> Направления работы : Бэкенд-разработка, LLM-конвейеры, распределенные системы и системный софт
-> Основной стек      : Python 3.12 · Go 1.22 · Rust · Modern C++17 · TypeScript · C# (.NET 10)
-> Инфраструктура     : Kubernetes · Docker · Kafka · Redis · PostgreSQL · Terraform · Prometheus
-```
+### Про інженера
 
-### Ключевые проекты
+Інженер програмного забезпечення та архітектор розподілених систем. Фокус на високонавантаженому бекенді, відмовостійкій інфраструктурі та AI/ML конвеєрах. Проєктування низькорівневих рішень, стрімінгових систем обробки подій та хмарних сервісів.
 
-- **[telegram-reporter-bot](https://github.com/txltedxgod)** — Высоконагруженная система авто-репортов Telegram с пулом из 40+ сессий, sticky-прокси и авто-восстановлением (Oracle Cloud VPS).
-- **[otkat-generator](https://github.com/txltedxgod)** — Десктопный графический редактор фиксаций на C# WPF (.NET 10) с WebView2, шорткатами `Ctrl+V`/`Ctrl+C` и выделением целей.
-- **[life-os](https://github.com/txltedxgod)** — Персональная система продуктивности и учета финансов (CZK/RUB/EUR/USDT) с генератором отчетов и Android APK.
-- **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** — Ультрабыстрый облачный API-шлюз и WAF на Rust (150k+ QPS).
-- **[turbokv](https://github.com/txltedxgod/turbokv)** — Быстрое in-memory key-value хранилище на C++17 с бинарным Write-Ahead Log.
-- **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** — Распределенный commit-log брокер сообщений на Go с веб-дашбордом.
-- **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** — Продвинутый RAG-движок с Reciprocal Rank Fusion и кросс-энкодер реранкингом.
-- **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** — Пакет из 7 Telegram Mini Apps в стиле Obsidian Glass с Web3-платежами.
+- **Спеціалізація**: Високонавантажені сервіси, стрімінг із мінімальною затримкою, стійка до збоїв інфраструктура.
+- **Основний стек**: Глибокий фокус на Rust, Go, Modern C++17 та асинхронному Python.
+- **Портфоліо**: 70+ відкритих інструментів, AI-рушіїв, Telegram Mini Apps та виробничих архітектур.
+
+<br/>
+
+### Ключові навички
+
+- **Мови програмування**: `rust` • `go` • `c++17` • `python 3.12` • `c# (.net 10)` • `typescript` • `sql`
+- **Системи та AI**: `PyTorch` • `pgvector` • `RAG (RRF / GraphRAG)` • `LoRA / QLoRA` • `Vector Quantization (SQ8)` • `LLM Guardrails`
+- **Бекенд та дані**: `FastAPI` • `Axum / Tokio` • `Kafka & CDC (Outbox Pattern)` • `Redis` • `PostgreSQL` • `RabbitMQ` • `gRPC / Protobuf`
+- **Інфраструктура & DevOps**: `Docker & Compose` • `Kubernetes` • `Helm 3` • `Terraform` • `Linux Hardening` • `Prometheus & Grafana`
+
+<br/>
+
+### Флагманські системи
+
+| Репозиторій | Стек технологій | Основні можливості |
+| :--- | :--- | :--- |
+| **[telegram-reporter-bot](https://github.com/txltedxgod)** | `Python 3.10+`, `Aiogram 3`, `Pyrogram`, `PostgreSQL` | Високонавантажена автоматизована система репортингу в Telegram: пул із 40+ сесій, ферма sticky-проксі, аварійний вимикач (killswitch) та цілодобовий демон на VPS. |
+| **[otkat-generator](https://github.com/txltedxgod)** | `C# WPF (.NET 10)`, `WebView2`, `Canvas JS` | Десктопний графічний редактор фіксацій та анотацій: шорткати буфера обміну (`Ctrl+V`/`Ctrl+C`), рамки виділення цілей та інструмент цензурування. |
+| **[life-os](https://github.com/txltedxgod)** | `Python`, `HTML5 / Vanilla JS`, `Android APK` | Персональна операційна система продуктивності з мультивалютним фінансовим обліком (CZK/RUB/EUR/USDT), щоденними авто-звітами та мобільним APK/PWA. |
+| **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum`, `Tower` | Ультрашвидкий хмарний API-шлюз та WAF на Rust із динамічним rate limiting та політиками JWT RBAC (150k+ QPS). |
+| **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL`, `POSIX` | Високопродуктивне in-memory key-value сховище з бінарним Write-Ahead Log (WAL) та власним мережевим TCP-протоколом. |
+| **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap`, `WebSocket` | Розподілений commit-log брокер повідомлень із групами споживачів, авто-балансуванням та веб-дашбордом у реальному часі. |
+| **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy`, `Docker` | RAG-рушій нового покоління з Reciprocal Rank Fusion (RRF), генерацією мульти-запитів та переранжуванням крос-енкодером. |
+| **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `FastAPI`, `Stripe`, `Dark Glass` | Комерційна SaaS-платформа для ліцензування AI-софту, автоматизованого крипто/фіат білінгу та дистрибуції ключів. |
+| **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Web3` | Комплекс із 7 Telegram Mini Apps у темному стилі Obsidian Glass з оплатами CryptoBot / xRocket та TON Connect. |
+
+<br/>
+
+<details>
+<summary><b>Переглянути повний каталог архітектури (70+ проєктів)</b></summary>
+
+<br/>
+
+#### [1. AI, інфраструктура LLM та RAG-системи]
+| Репозиторій | Стек технологій | Основні можливості |
+| :--- | :--- | :--- |
+| **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy` | Просунутий RAG з Reciprocal Rank Fusion (RRF), розширенням мульти-запитів та крос-енкодер переранжуванням. |
+| **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `Python`, `FastAPI`, `Pydantic` | Платформа безпеки та оцінки LLM: виявлення галюцинацій, захист від prompt injection, маскування конфіденційних даних (PII). |
+| **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python`, `Redis`, `Vector-Search` | Семантичний векторний кеш для запитів до LLM з косинусною дедуплікацією (зниження витрат на токени понад 80%). |
+| **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python`, `AsyncIO`, `FastAPI` | Фреймворк оркестрації мультиагентних систем з виконанням DAG-графів, векторною пам'яттю та пісочницями інструментів. |
+| **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python`, `Neo4j`, `Knowledge-Graph` | RAG-рушій на основі графів знань з екстракцією сутностей, обходом зв'язків та мульти-кроковими висновками. |
+| **[embeddings-quantizer](https://github.com/txltedxgod/embeddings-quantizer)** | `Python`, `Product-Quantization` | Високопродуктивна квантизація ембедингів, що зменшує обсяг пам'яті на 75% без втрати точності. |
+| **[docassist](https://github.com/txltedxgod/docassist)** | `FastAPI`, `pgvector`, `aiogram 3` | RAG-асистент для роботи з документами: асинхронне збереження в pgvector, семантичний пошук та SSE-стрімінг. |
+
+#### [2. Високопродуктивні розподілені системи та шлюзи]
+| Репозиторій | Стек технологій | Основні можливості |
+| :--- | :--- | :--- |
+| **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum` | Ультрашвидкий хмарний API-шлюз та WAF з динамічним rate limiting та JWT RBAC політиками (150k+ QPS). |
+| **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap` | Розподілений commit-log брокер повідомлень із групами споживачів, автоматичним ребалансуванням та панеллю моніторингу. |
+| **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python`, `PostgreSQL WAL`, `Kafka` | Двигун Change Data Capture (CDC) реального часу з патерном Transactional Outbox, DLQ та повторним відтворенням. |
+| **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL` | Швидке in-memory key-value сховище з TTL, відновленням після збоїв через бінарний WAL та мережевим протоколом TCP. |
+| **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `CRDTs`, `WebSockets` | Спільне полотно для малювання з Conflict-Free Replicated Data Types (CRDT) та просторовою індексацією QuadTree. |
+| **[gocache-proxy](https://github.com/txltedxgod/gocache-proxy)** | `Go 1.22`, `LRU-Cache`, `Prometheus` | Високопродуктивний зворотний проксі-кеш HTTP з потокобезпечним in-memory LRU кешем на Go. |
+
+#### [3. Безпека, автентифікація та Observability]
+| Репозиторій | Стек технологій | Основні можливості |
+| :--- | :--- | :--- |
+| **[auth-passkey-service](https://github.com/txltedxgod/auth-passkey-service)** | `Python 3.12`, `FastAPI`, `WebAuthn` | Безпарольний мікросервіс автентифікації WebAuthn / Passkey FIDO2 із кросплатформною атестацією. |
+| **[jwt-guard-rs](https://github.com/txltedxgod/jwt-guard-rs)** | `Rust`, `Axum`, `Redis` | Високошвидкісний шлюз перевірки та миттєвого відкликання JWT-токенів із субмілісекундною затримкою. |
+| **[secret-scanner-ci](https://github.com/txltedxgod/secret-scanner-ci)** | `Python`, `Entropy-Analysis` | Сканер секретів для pre-commit та CI, що виявляє витоки API-ключів, токенів та високоентропійних даних. |
+| **[audit-trail-ledger](https://github.com/txltedxgod/audit-trail-ledger)** | `Python`, `Merkle-Tree`, `Crypto` | Криптографічно верифікований незмінний журнал аудиту на базі дерев Меркла. |
+
+#### [4. Хмарна інфраструктура, Kubernetes та FinOps]
+| Репозиторій | Стек технологій | Основні можливості |
+| :--- | :--- | :--- |
+| **[k8s-cost-optimizer](https://github.com/txltedxgod/k8s-cost-optimizer)** | `Python`, `Kubernetes API`, `FinOps` | Демон оптимізації витрат K8s: аналіз виділення ресурсів, виявлення надлишкового споживання CPU/RAM. |
+| **[k8s-pod-autoscale](https://github.com/txltedxgod/k8s-pod-autoscale)** | `Go`, `client-go`, `Prometheus` | Користувацький Kubernetes-контролер для динамічного масштабування подів на основі метрик та черг. |
+| **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | `Terraform HCL`, `AWS`, `GCP` | Модульні шаблони Infrastructure as Code (IaC): Multi-AZ VPC, EKS Cluster, Aurora RDS, IAM. |
+| **[ansible-hardening](https://github.com/txltedxgod/ansible-hardening)** | `Ansible`, `Linux Kernel Tuning` | Комплексне посилення безпеки Linux-серверів відповідно до стандарту CIS benchmark та тюнінг ядра через sysctl. |
+
+#### [5. Telegram-боти, Mini Apps та Web3]
+| Репозиторій | Стек технологій | Основні можливості |
+| :--- | :--- | :--- |
+| **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3` | Комплекс із 7 Telegram Mini Apps · [Демо](https://txltedxgod.github.io/tma-portfolio-suite/) |
+| **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `Stripe` | SaaS-платформа для продажу AI-ліцензій: кабінет користувача, мультивалютний еквайринг, автоматична видача ліцензій. |
+| **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Docker` | Повнофункціональний інтернет-магазин у Telegram: каталог товарів, інтерактивний кошик, FSM-оформлення, промокоди. |
+| **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Cloud Run` | Бот для відстеження особистих фінансів на Google Cloud Run з мультивалютним зведенням балансу. |
+
+</details>
 
 <br/>
 
 <div align="center">
   <sub>Building clean, reliable & scalable software · 2026</sub>
 </div>
-
-</details>
