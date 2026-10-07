@@ -68,14 +68,14 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 | Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| **[telegram-reporter-bot](https://github.com/txltedxgod)** | `Python 3.10+`, `Aiogram 3`, `Pyrogram`, `PostgreSQL` | High-concurrency automated Telegram reporting system with 40+ sessions, sticky proxy farm, killswitch, and live VPS daemon. |
+| **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `Python 3.12`, `aiogram 3`, `PostgreSQL`, `Docker` | Full-featured e-commerce shop bot: catalog, interactive cart, FSM checkout, promo codes, referral system. |
 | **[otkat-generator](https://github.com/txltedxgod)** | `C# WPF (.NET 10)`, `WebView2`, `Canvas JS` | Desktop graphic editor and screenshot annotation tool with hotkey clipboard integration (`Ctrl+V`/`Ctrl+C`), target framing, and censor engine. |
 | **[life-os](https://github.com/txltedxgod)** | `Python`, `HTML5 / Vanilla JS`, `Android APK` | Personal productivity operating system with multi-currency finance tracking (CZK/RUB/EUR/USDT), automated daily reporting, and mobile PWA/APK. |
 | **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum`, `Tower` | Ultra-fast cloud-native API Gateway & WAF with dynamic rate limiting and JWT RBAC policies (150k+ QPS). |
 | **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL`, `POSIX` | High-throughput in-memory key-value store with binary Write-Ahead Log (WAL) and custom TCP protocol. |
 | **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap`, `WebSocket` | Distributed commit-log message broker with consumer groups, automatic rebalancing, and live web dashboard. |
 | **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy`, `Docker` | Next-generation RAG engine with Reciprocal Rank Fusion (RRF), multi-query generation, and cross-encoder reranking. |
-| **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `FastAPI`, `Stripe`, `Dark Glass` | Commercial SaaS platform for AI software licensing, automated crypto/fiat billing, and digital key distribution. |
+| **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python 3.12`, `PostgreSQL WAL`, `Kafka`, `Redis` | Real-time Change Data Capture (CDC) engine with Transactional Outbox pattern, DLQ, and replay. |
 | **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Web3` | Suite of 7 Telegram Mini Apps featuring Obsidian Glass UI, CryptoBot / xRocket payments, and TON Connect. |
 
 <br/>
@@ -126,7 +126,6 @@ Software engineer and systems builder focused on high-throughput backend archite
 | Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
 | **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3` | 7 Telegram Mini Apps · [Live Demo](https://txltedxgod.github.io/tma-portfolio-suite/) |
-| **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `Stripe` | Flagship SaaS platform for AI license sales: user dashboard, multi-gateway checkout, automated license issuance. |
 | **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Docker` | Full-featured e-commerce bot: catalog, interactive cart, FSM checkout, promo codes, referral system. |
 | **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Cloud Run` | Personal finance tracker bot running on Google Cloud Run with multi-currency balance rollups. |
 
@@ -163,14 +162,14 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 | Репозиторій | Стек технологій | Основні можливості |
 | :--- | :--- | :--- |
-| **[telegram-reporter-bot](https://github.com/txltedxgod)** | `Python 3.10+`, `Aiogram 3`, `Pyrogram`, `PostgreSQL` | Високонавантажена автоматизована система репортингу в Telegram: пул із 40+ сесій, ферма sticky-проксі, аварійний вимикач (killswitch) та цілодобовий демон на VPS. |
+| **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `Python 3.12`, `aiogram 3`, `PostgreSQL`, `Docker` | Повнофункціональний інтернет-магазин у Telegram: каталог товарів, інтерактивний кошик, FSM-оформлення, промокоди, реферальна програма. |
 | **[otkat-generator](https://github.com/txltedxgod)** | `C# WPF (.NET 10)`, `WebView2`, `Canvas JS` | Десктопний графічний редактор фіксацій та анотацій: шорткати буфера обміну (`Ctrl+V`/`Ctrl+C`), рамки виділення цілей та інструмент цензурування. |
 | **[life-os](https://github.com/txltedxgod)** | `Python`, `HTML5 / Vanilla JS`, `Android APK` | Персональна операційна система продуктивності з мультивалютним фінансовим обліком (CZK/RUB/EUR/USDT), щоденними авто-звітами та мобільним APK/PWA. |
 | **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum`, `Tower` | Ультрашвидкий хмарний API-шлюз та WAF на Rust із динамічним rate limiting та політиками JWT RBAC (150k+ QPS). |
 | **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL`, `POSIX` | Високопродуктивне in-memory key-value сховище з бінарним Write-Ahead Log (WAL) та власним мережевим TCP-протоколом. |
 | **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap`, `WebSocket` | Розподілений commit-log брокер повідомлень із групами споживачів, авто-балансуванням та веб-дашбордом у реальному часі. |
 | **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy`, `Docker` | RAG-рушій нового покоління з Reciprocal Rank Fusion (RRF), генерацією мульти-запитів та переранжуванням крос-енкодером. |
-| **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `FastAPI`, `Stripe`, `Dark Glass` | Комерційна SaaS-платформа для ліцензування AI-софту, автоматизованого крипто/фіат білінгу та дистрибуції ключів. |
+| **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python 3.12`, `PostgreSQL WAL`, `Kafka`, `Redis` | Двигун Change Data Capture (CDC) реального часу з патерном Transactional Outbox, DLQ та повторним відтворенням. |
 | **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3`, `Web3` | Комплекс із 7 Telegram Mini Apps у темному стилі Obsidian Glass з оплатами CryptoBot / xRocket та TON Connect. |
 
 <br/>
@@ -221,7 +220,6 @@ Software engineer and systems builder focused on high-throughput backend archite
 | Репозиторій | Стек технологій | Основні можливості |
 | :--- | :--- | :--- |
 | **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3` | Комплекс із 7 Telegram Mini Apps · [Демо](https://txltedxgod.github.io/tma-portfolio-suite/) |
-| **[zynlume](https://github.com/txltedxgod/zynlume)** | `Python 3.12`, `Google OAuth`, `Stripe` | SaaS-платформа для продажу AI-ліцензій: кабінет користувача, мультивалютний еквайринг, автоматична видача ліцензій. |
 | **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Docker` | Повнофункціональний інтернет-магазин у Telegram: каталог товарів, інтерактивний кошик, FSM-оформлення, промокоди. |
 | **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Cloud Run` | Бот для відстеження особистих фінансів на Google Cloud Run з мультивалютним зведенням балансу. |
 
