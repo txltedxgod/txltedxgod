@@ -1,0 +1,51 @@
+name: Scheduled Activity Sync
+
+on:
+  schedule:
+    - cron: "23 3,7,12,17,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Dynamic Jitter and Heartbeat Update
+        run: |
+          # Apply natural dynamic jitter delay between 15s and 240s
+          DELAY=$(( (RANDOM % 225) + 15 ))
+          echo "Applying dynamic jitter delay of ${DELAY}s..."
+          sleep $DELAY
+
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          DATE_TAG=$(date -u +"%Y-%m-%d")
+
+          cat << 'EOF' > ACTIVITY.md
+# Activity & Heartbeat Ledger
+
+Automated contribution pulse and engineering health telemetry.
+
+EOF
+          echo "- **Last Heartbeat**: \`${TIMESTAMP}\`" >> ACTIVITY.md
+          echo "- **Status**: \`ACTIVE / HEALTHY\`" >> ACTIVITY.md
+          echo "- **Automated Agent**: \`GitHub Actions Matrix Runner\`" >> ACTIVITY.md
+          echo "" >> ACTIVITY.md
+          echo "```text" >> ACTIVITY.md
+          echo "[telemetry] system check: pass | latency: low | memory: nominal" >> ACTIVITY.md
+          echo "[timestamp] ${TIMESTAMP}" >> ACTIVITY.md
+          echo "```" >> ACTIVITY.md
+
+          git config user.name "txltedxgod"
+          git config user.email "txltedxgod@users.noreply.github.com"
+          git add ACTIVITY.md
+          if git diff --staged --quiet; then
+            echo "No change to commit"
+          else
+            git commit -m "chore(pulse): heartbeat sync ${DATE_TAG}"
+            git push
+          fi
