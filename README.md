@@ -5,12 +5,12 @@
 <br/>
 
 <div align="center">
-  <a href="#english"><img src="https://img.shields.io/badge/Language-English-238636?style=for-the-badge&labelColor=0d1117" alt="English" /></a>
-  <a href="#українська"><img src="https://img.shields.io/badge/Мова-Українська-005BBB?style=for-the-badge&labelColor=0d1117" alt="Українська" /></a>
-  <a href="https://txltedxgod.github.io/"><img src="https://img.shields.io/badge/Website-txltedxgod.github.io-00f2fe?style=for-the-badge&labelColor=0d1117" alt="Website" /></a>
-  <a href="https://txltedxgod.github.io/tma-portfolio-suite/"><img src="https://img.shields.io/badge/TMA_Suite-Live_Mini_Apps-8a2be2?style=for-the-badge&labelColor=0d1117" alt="TMA Suite" /></a>
-  <a href="https://t.me/seocry"><img src="https://img.shields.io/badge/Telegram-@seocry-2496ED?style=for-the-badge&labelColor=0d1117&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  <a href="https://github.com/txltedxgod?tab=repositories"><img src="https://img.shields.io/badge/Repositories-70+_Projects-27c93f?style=for-the-badge&labelColor=0d1117" alt="Repos" /></a>
+  <a href="https://txltedxgod.github.io/"><img src="https://img.shields.io/badge/WEBSITE-txltedxgod.github.io-12151c?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://t.me/seocry"><img src="https://img.shields.io/badge/TELEGRAM-@seocry-12151c?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>
+  <a href="https://txltedxgod.github.io/tma-portfolio-suite/"><img src="https://img.shields.io/badge/TMA_SUITE-Live_Mini_Apps-12151c?style=flat-square&logo=telegram&logoColor=white" alt="TMA Suite" /></a>
+  <a href="https://github.com/txltedxgod?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-70+_Projects-12151c?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="#english"><img src="https://img.shields.io/badge/LANG-ENGLISH-12151c?style=flat-square" alt="English" /></a>
+  <a href="#українська"><img src="https://img.shields.io/badge/МОВА-УКРАЇНСЬКА-12151c?style=flat-square" alt="Українська" /></a>
 </div>
 
 <br/>
@@ -25,23 +25,15 @@
 
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=txltedxgod&show_icons=true&theme=tokyo-night&hide_border=true&border_radius=8&bg_color=0D1117&title_color=00F2FE&icon_color=00F2FE&text_color=C9D1D9" height="165" alt="txltedxgod GitHub Stats" />
-  <img src="https://streak-stats.demolab.com/?user=txltedxgod&theme=tokyo-night&hide_border=true&border_radius=8&background=0D1117&ring=00F2FE&fire=00F2FE&currStreakNum=C9D1D9&sideNums=C9D1D9&sideLabels=8B949E" height="165" alt="GitHub Streak" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=txltedxgod&layout=compact&theme=tokyo-night&hide_border=true&border_radius=8&bg_color=0D1117&title_color=00F2FE&text_color=C9D1D9" height="165" alt="Top Languages" />
-</div>
-
-<br/>
-
 ---
 
 <div id="english"></div>
 
-## 🇬🇧 English
+## English
 
 ### About
 
-Software engineer and systems builder focused on high-throughput backend architecture, distributed systems, and AI/ML infrastructure. Passionate about low-level performance, event-driven pipelines, and cloud-native engineering.
+Software engineer and systems builder focused on high-throughput backend architecture, distributed systems, and AI/ML infrastructure. Passionate about low-level performance, event-driven pipelines, and cloud-native engineering. Zero bloat, maximum performance.
 
 - **Focus**: High-concurrency systems, low-latency streaming pipelines, and fault-tolerant infrastructure.
 - **Stack**: Deep focus on Rust, Go, Modern C++17, and async Python systems.
@@ -49,18 +41,12 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 <br/>
 
-### Core Skills
+### Core Architecture & Technical Competencies
 
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,go,cpp,python,cs,ts,postgres,redis,kafka,docker,kubernetes,linux,git,fastapi,pytorch&perline=15" alt="Tech Stack Icons" />
-  </a>
-</p>
-
-- **Languages**: `rust` • `go` • `c++17` • `python 3.12` • `c# (.net 10)` • `typescript` • `sql`
-- **Systems & AI**: `PyTorch` • `pgvector` • `RAG (RRF / GraphRAG)` • `LoRA / QLoRA` • `Vector Quantization (SQ8)` • `LLM Guardrails`
-- **Backend & Data**: `FastAPI` • `Axum / Tokio` • `Kafka & CDC (Outbox Pattern)` • `Redis` • `PostgreSQL` • `RabbitMQ` • `gRPC / Protobuf`
-- **Infra & DevOps**: `Docker & Compose` • `Kubernetes` • `Helm 3` • `Terraform` • `Linux Hardening` • `Prometheus & Grafana`
+- **Languages**: `Rust` • `Go 1.22` • `Modern C++17` • `Python 3.12` • `C# (.NET 10)` • `TypeScript` • `SQL`
+- **Distributed & High-Concurrency**: `Axum / Tokio` • `gRPC & Protobuf` • `mmap Zero-Copy` • `Kafka & CDC (Outbox Pattern)` • `Redis` • `PostgreSQL & pgvector`
+- **AI Infrastructure & Neural Search**: `PyTorch` • `Reciprocal Rank Fusion (RRF)` • `GraphRAG` • `Cross-Encoder Reranking` • `Vector Quantization (SQ8)` • `FastAPI`
+- **Cloud & Observability**: `Docker Multi-Stage` • `Kubernetes` • `Helm 3` • `Terraform` • `Linux Hardening` • `Prometheus & Grafana`
 
 <br/>
 
@@ -80,7 +66,7 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 <br/>
 
-### ⚡ High-Throughput Benchmarks & Architecture Telemetry
+### High-Throughput Benchmarks & Architecture Telemetry
 
 | Engine / Component | Architecture & Paradigm | Peak Throughput | P99 Latency | Memory Footprint |
 | :--- | :--- | :--- | :--- | :--- |
@@ -149,11 +135,11 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 <div id="українська"></div>
 
-## 🇺🇦 Українська
+## Українська
 
 ### Про мене
 
-Інженер програмного забезпечення та архітектор розподілених систем. Фокус на високонавантаженому бекенді, відмовостійкій інфраструктурі та AI/ML конвеєрах. Проєктування низькорівневих рішень, стрімінгових систем обробки подій та хмарних сервісів.
+Інженер програмного забезпечення та архітектор розподілених систем. Фокус на високонавантаженому бекенді, відмовостійкій інфраструктурі та AI/ML конвеєрах. Проєктування низькорівневих рішень, стрімінгових систем обробки подій та хмарних сервісів. Чистий код, максимальна продуктивність.
 
 - **Спеціалізація**: Високонавантажені сервіси, стрімінг із мінімальною затримкою, стійка до збоїв інфраструктура.
 - **Основний стек**: Глибокий фокус на Rust, Go, Modern C++17 та асинхронному Python.
@@ -161,12 +147,12 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 <br/>
 
-### Ключові навички
+### Ключова архітектура та технічні компетенції
 
-- **Мови програмування**: `rust` • `go` • `c++17` • `python 3.12` • `c# (.net 10)` • `typescript` • `sql`
-- **Системи та AI**: `PyTorch` • `pgvector` • `RAG (RRF / GraphRAG)` • `LoRA / QLoRA` • `Vector Quantization (SQ8)` • `LLM Guardrails`
-- **Бекенд та дані**: `FastAPI` • `Axum / Tokio` • `Kafka & CDC (Outbox Pattern)` • `Redis` • `PostgreSQL` • `RabbitMQ` • `gRPC / Protobuf`
-- **Інфраструктура & DevOps**: `Docker & Compose` • `Kubernetes` • `Helm 3` • `Terraform` • `Linux Hardening` • `Prometheus & Grafana`
+- **Мови програмування**: `Rust` • `Go 1.22` • `Modern C++17` • `Python 3.12` • `C# (.NET 10)` • `TypeScript` • `SQL`
+- **Розподілені та високонавантажені системи**: `Axum / Tokio` • `gRPC & Protobuf` • `mmap Zero-Copy` • `Kafka & CDC (Outbox Pattern)` • `Redis` • `PostgreSQL & pgvector`
+- **AI-інфраструктура та нейропошук**: `PyTorch` • `Reciprocal Rank Fusion (RRF)` • `GraphRAG` • `Cross-Encoder Reranking` • `Vector Quantization (SQ8)` • `FastAPI`
+- **Хмари та Observability**: `Docker Multi-Stage` • `Kubernetes` • `Helm 3` • `Terraform` • `Linux Hardening` • `Prometheus & Grafana`
 
 <br/>
 
@@ -186,7 +172,7 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 <br/>
 
-### ⚡ Бенчмарки продуктивності та телеметрія архітектури
+### Бенчмарки продуктивності та телеметрія архітектури
 
 | Рушій / Компонент | Архітектура та парадигма | Пікова пропускна здатність | P99 Затримка | Споживання пам'яті |
 | :--- | :--- | :--- | :--- | :--- |
@@ -252,5 +238,5 @@ Software engineer and systems builder focused on high-throughput backend archite
 <br/>
 
 <div align="center">
-  <sub>Building clean, reliable & scalable software · 2026</sub>
+  <sub>txltedxgod &bull; Systems &amp; Software Architecture &bull; 2026</sub>
 </div>
