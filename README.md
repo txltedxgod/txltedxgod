@@ -77,6 +77,20 @@ Software engineer and systems builder focused on high-throughput backend archite
 
 <br/>
 
+<br/>
+
+### Open Source Contributions
+
+Production-grade bug fixes, ecosystem features, and architecture maintenance across prominent open-source projects:
+
+| Ecosystem / Project | Pull Request | Impact & Highlights |
+| :--- | :--- | :--- |
+| **[encode / starlette](https://github.com/encode/starlette)** | [PR #3753](https://github.com/Kludex/starlette/pull/3753) | Resolved leading-slash path resolution in nested `Mount.url_path_for` avoiding double-slash `%2F` encoding. |
+| **[aiogram / i18n](https://github.com/aiogram/i18n)** | [PR #52](https://github.com/aiogram/i18n/pull/52) | Engineered composite filter lazy traversal for logical filters (`or_f`, `and_f`, `invert_f`) during startup lifecycle. |
+| **[omnilib / aiosqlite](https://github.com/omnilib/aiosqlite)** | [PR #404](https://github.com/omnilib/aiosqlite/pull/404) | Implemented idempotent worker thread shutdown preventing deadlocks when `stop()` runs concurrent with `close()`. |
+| **[Tishka17 / aiogram_dialog](https://github.com/Tishka17/aiogram_dialog)** | [PR #536](https://github.com/Tishka17/aiogram_dialog/pull/536) | Corrected TextInput error handler signatures and runtime parameter bindings in official documentation. |
+| **[hydrogram / hydrogram](https://github.com/hydrogram/hydrogram)** | [PR #82](https://github.com/hydrogram/hydrogram/pull/82) | Added type guards against `ForumTopicDeleted` raw MTProto objects in `get_forum_topics` avoiding runtime crashes. |
+
 <details>
 <summary><b>View Complete Architecture Catalog (70+ Repositories)</b></summary>
 
@@ -182,6 +196,20 @@ Software engineer and systems builder focused on high-throughput backend archite
 | **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | aiogram 3, Asyncpg, Connection Pooling | **12,000 Req/min** | **14 ms** | Multi-Worker Docker |
 
 <br/>
+
+<br/>
+
+### Контриб'юції у відкритий код (Open Source)
+
+Виправлення багів виробничого рівня, оптимізація та внесок у популярні open-source екосистеми:
+
+| Проєкт | Pull Request | Внесок та технічні деталі |
+| :--- | :--- | :--- |
+| **[encode / starlette](https://github.com/encode/starlette)** | [PR #3753](https://github.com/Kludex/starlette/pull/3753) | Виправлено резолвінг шляхів із початковим слешем у вкладених `Mount.url_path_for`, усуваючи помилкове екранування `%2F`. |
+| **[aiogram / i18n](https://github.com/aiogram/i18n)** | [PR #52](https://github.com/aiogram/i18n/pull/52) | Реалізовано механізм рекурсивного обходу композитних логічних фільтрів (`or_f`, `and_f`, `invert_f`) для лінивих перекладів під час ініціалізації. |
+| **[omnilib / aiosqlite](https://github.com/omnilib/aiosqlite)** | [PR #404](https://github.com/omnilib/aiosqlite/pull/404) | Забезпечено ідемпотентну зупинку робочого потоку, запобігаючи дедлокам при паралельному виклику `stop()` та `close()`. |
+| **[Tishka17 / aiogram_dialog](https://github.com/Tishka17/aiogram_dialog)** | [PR #536](https://github.com/Tishka17/aiogram_dialog/pull/536) | Виправлено сигнатури обробника помилок TextInput та типізацію параметрів у документації віджетів. |
+| **[hydrogram / hydrogram](https://github.com/hydrogram/hydrogram)** | [PR #82](https://github.com/hydrogram/hydrogram/pull/82) | Додано типізовану перевірку об'єктів `ForumTopicDeleted` в MTProto для запобігання крашам у `get_forum_topics`. |
 
 <details>
 <summary><b>Переглянути повний каталог архітектури (70+ проєктів)</b></summary>
