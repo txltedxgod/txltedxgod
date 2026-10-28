@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/txltedxgod/txltedxgod/main/assets/header.svg" width="100%" alt="txltedxgod Header Banner" />
+  <img src="https://raw.githubusercontent.com/txltedxgod/txltedxgod/main/assets/banner.svg?v=2" width="100%" alt="txltedxgod Header Banner" />
 </div>
 
 <br/>
