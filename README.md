@@ -7,7 +7,6 @@
 <div align="center">
   <a href="https://txltedxgod.github.io/"><img src="https://img.shields.io/badge/WEBSITE-txltedxgod.github.io-12151c?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="https://t.me/seocry"><img src="https://img.shields.io/badge/TELEGRAM-@seocry-12151c?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  <a href="https://txltedxgod.github.io/tma-portfolio-suite/"><img src="https://img.shields.io/badge/TMA_SUITE-Live_Mini_Apps-12151c?style=flat-square&logo=telegram&logoColor=white" alt="TMA Suite" /></a>
   <a href="https://github.com/txltedxgod?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-70+_Projects-12151c?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
   <a href="#english"><img src="https://img.shields.io/badge/LANG-ENGLISH-12151c?style=flat-square" alt="English" /></a>
   <a href="#українська"><img src="https://img.shields.io/badge/МОВА-УКРАЇНСЬКА-12151c?style=flat-square" alt="Українська" /></a>
