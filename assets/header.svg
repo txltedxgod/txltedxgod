@@ -70,13 +70,7 @@
       font-weight: 600;
       fill: #e4e4e7;
     }
-    .status-text {
-      font-family: "JetBrains Mono", monospace;
-      font-size: 10px;
-      letter-spacing: 2px;
-      fill: #71717a;
-      text-anchor: middle;
-    }
+
   </style>
 
   <!-- Base Card Background -->
@@ -145,11 +139,11 @@
   </g>
 
   <!-- Right-Side Graphic: Architectural Isometric Systems Node & Radar -->
-  <g transform="translate(800, 110)">
+  <g transform="translate(805, 130)">
     <!-- Outer Radar Rings -->
-    <circle cx="0" cy="0" r="74" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 6" opacity="0.15"/>
-    <circle cx="0" cy="0" r="54" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="2 4" opacity="0.2"/>
-    <circle cx="0" cy="0" r="34" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="6 6" opacity="0.25"/>
+    <circle cx="0" cy="0" r="74" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 6" opacity="0.14"/>
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="2 4" opacity="0.18"/>
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="6 6" opacity="0.22"/>
 
     <!-- Isometric Systems Cube Node (Exactly as on Portfolio Website) -->
     <g transform="scale(1.35)">
@@ -164,8 +158,5 @@
       <circle cx="-19" cy="11" r="2" fill="#ffffff"/>
       <circle cx="-19" cy="-11" r="2" fill="#ffffff"/>
     </g>
-
-    <!-- Systems Status Label -->
-    <text x="0" y="96" class="status-text">SYSTEMS :: ACTIVE</text>
   </g>
 </svg>
