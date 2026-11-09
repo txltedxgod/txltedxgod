@@ -86,11 +86,16 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 
 | Ecosystem / Project | Pull Request | Impact & Highlights |
 | :--- | :--- | :--- |
+| **[chigwell / telegram-mcp](https://github.com/chigwell/telegram-mcp)** ⭐ 2,015 | [PR #383](https://github.com/chigwell/telegram-mcp/pull/383) | **MERGED** · Added `TELEGRAM_LANG_CODE` & system header support for Telethon client identity. |
+| **[anasty17 / mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)** ⭐ 4,359 | [PR #1955](https://github.com/anasty17/mirror-leech-telegram-bot/pull/1955) | Closes #1937 · Added `EXTENSION_FIRST_SPLIT` setting, `-efs` CLI flag, and user settings toggle button. |
+| **[Dineshkarthik / telegram_media_downloader](https://github.com/Dineshkarthik/telegram_media_downloader)** ⭐ 2,762 | [PR #565](https://github.com/Dineshkarthik/telegram_media_downloader/pull/565) | Fixes #564 · Added `skip_existing_files` configuration option to prevent re-downloading duplicate files. |
+| **[aahnik / tgcf](https://github.com/aahnik/tgcf)** ⭐ 1,629 | [PR #654](https://github.com/aahnik/tgcf/pull/654) | Closes #630 · Streamlit `st.rerun()` compatibility, cross-platform process management, and log reading. |
+| **[derek73 / python-nameparser](https://github.com/derek73/python-nameparser)** ⭐ 800+ | [PR #1217](https://github.com/derek73/python-nameparser/pull/1217) | Closes #1185 · Guarded East Slavic patronymic rotation on initials with rules budget & corpus validation. |
+| **[thedemons / opentele](https://github.com/thedemons/opentele)** ⭐ 474 | [PR #151](https://github.com/thedemons/opentele/pull/151) | Closes #150, #133 · Handled unknown map keys in `readMapWith`, base `Exception`, Python 3.13 class attrs. |
+| **[opengeos / geoai](https://github.com/opengeos/geoai)** ⭐ 388 | [PR #965](https://github.com/opengeos/geoai/pull/965) | Closes #956 · Sorted class IDs for consistent and deterministic COCO training data generation. |
+| **[btclib-org / bip32-descriptors](https://github.com/btclib-org/bip32-descriptors)** | [PR #185](https://github.com/btclib-org/bip32-descriptors/pull/185), [#186](https://github.com/btclib-org/bip32-descriptors/pull/186) | Closes #183, #182 · Validated tuple types, key presence, and safe derivation step indexing. |
 | **[encode / starlette](https://github.com/encode/starlette)** | [PR #3753](https://github.com/Kludex/starlette/pull/3753) | Resolved leading-slash path resolution in nested `Mount.url_path_for` avoiding double-slash `%2F` encoding. |
-| **[aiogram / i18n](https://github.com/aiogram/i18n)** | [PR #52](https://github.com/aiogram/i18n/pull/52) | Engineered composite filter lazy traversal for logical filters (`or_f`, `and_f`, `invert_f`) during startup lifecycle. |
 | **[omnilib / aiosqlite](https://github.com/omnilib/aiosqlite)** | [PR #404](https://github.com/omnilib/aiosqlite/pull/404) | Implemented idempotent worker thread shutdown preventing deadlocks when `stop()` runs concurrent with `close()`. |
-| **[Tishka17 / aiogram_dialog](https://github.com/Tishka17/aiogram_dialog)** | [PR #536](https://github.com/Tishka17/aiogram_dialog/pull/536) | Corrected TextInput error handler signatures and runtime parameter bindings in official documentation. |
-| **[hydrogram / hydrogram](https://github.com/hydrogram/hydrogram)** | [PR #82](https://github.com/hydrogram/hydrogram/pull/82) | Added type guards against `ForumTopicDeleted` raw MTProto objects in `get_forum_topics` avoiding runtime crashes. |
 
 <details>
 <summary><b>View Complete Architecture Catalog (70+ Repositories)</b></summary>
@@ -208,11 +213,16 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 
 | Проєкт | Pull Request | Внесок та технічні деталі |
 | :--- | :--- | :--- |
-| **[encode / starlette](https://github.com/encode/starlette)** | [PR #3753](https://github.com/Kludex/starlette/pull/3753) | Виправлено резолвінг шляхів із початковим слешем у вкладених `Mount.url_path_for`, усуваючи помилкове екранування `%2F`. |
-| **[aiogram / i18n](https://github.com/aiogram/i18n)** | [PR #52](https://github.com/aiogram/i18n/pull/52) | Реалізовано механізм рекурсивного обходу композитних логічних фільтрів (`or_f`, `and_f`, `invert_f`) для лінивих перекладів під час ініціалізації. |
-| **[omnilib / aiosqlite](https://github.com/omnilib/aiosqlite)** | [PR #404](https://github.com/omnilib/aiosqlite/pull/404) | Забезпечено ідемпотентну зупинку робочого потоку, запобігаючи дедлокам при паралельному виклику `stop()` та `close()`. |
-| **[Tishka17 / aiogram_dialog](https://github.com/Tishka17/aiogram_dialog)** | [PR #536](https://github.com/Tishka17/aiogram_dialog/pull/536) | Виправлено сигнатури обробника помилок TextInput та типізацію параметрів у документації віджетів. |
-| **[hydrogram / hydrogram](https://github.com/hydrogram/hydrogram)** | [PR #82](https://github.com/hydrogram/hydrogram/pull/82) | Додано типізовану перевірку об'єктів `ForumTopicDeleted` в MTProto для запобігання крашам у `get_forum_topics`. |
+| **[chigwell / telegram-mcp](https://github.com/chigwell/telegram-mcp)** ⭐ 2,015 | [PR #383](https://github.com/chigwell/telegram-mcp/pull/383) | **MERGED** · Додано підтримку `TELEGRAM_LANG_CODE` та заголовків автентичності Telethon. |
+| **[anasty17 / mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)** ⭐ 4,359 | [PR #1955](https://github.com/anasty17/mirror-leech-telegram-bot/pull/1955) | Closes #1937 · Додано налаштування `EXTENSION_FIRST_SPLIT`, CLI-флаг `-efs` та кнопку конфігурації. |
+| **[Dineshkarthik / telegram_media_downloader](https://github.com/Dineshkarthik/telegram_media_downloader)** ⭐ 2,762 | [PR #565](https://github.com/Dineshkarthik/telegram_media_downloader/pull/565) | Fixes #564 · Додано опцію `skip_existing_files` для уникнення повторного завантаження дублікатів. |
+| **[aahnik / tgcf](https://github.com/aahnik/tgcf)** ⭐ 1,629 | [PR #654](https://github.com/aahnik/tgcf/pull/654) | Closes #630 · Сумісність зі Streamlit `st.rerun()`, кросплатформний контроль процесів, логування. |
+| **[derek73 / python-nameparser](https://github.com/derek73/python-nameparser)** ⭐ 800+ | [PR #1217](https://github.com/derek73/python-nameparser/pull/1217) | Closes #1185 · Виправлено ротацію імен з ініціалами для східнослов'янських патронімів. |
+| **[thedemons / opentele](https://github.com/thedemons/opentele)** ⭐ 474 | [PR #151](https://github.com/thedemons/opentele/pull/151) | Closes #150, #133 · Обробка мап у `readMapWith`, базовий клас помилок, підтримка Python 3.13. |
+| **[opengeos / geoai](https://github.com/opengeos/geoai)** ⭐ 388 | [PR #965](https://github.com/opengeos/geoai/pull/965) | Closes #956 · Детерміноване сортування класів для повторюваності тренувальних датасетів COCO. |
+| **[btclib-org / bip32-descriptors](https://github.com/btclib-org/bip32-descriptors)** | [PR #185](https://github.com/btclib-org/bip32-descriptors/pull/185), [#186](https://github.com/btclib-org/bip32-descriptors/pull/186) | Closes #183, #182 · Валідація типів кортежів, наявності ключів та індексації кроків деривації. |
+| **[encode / starlette](https://github.com/encode/starlette)** | [PR #3753](https://github.com/Kludex/starlette/pull/3753) | Виправлено резолвінг шляхів із початковим слешем у вкладених `Mount.url_path_for`. |
+| **[omnilib / aiosqlite](https://github.com/omnilib/aiosqlite)** | [PR #404](https://github.com/omnilib/aiosqlite/pull/404) | Забезпечено ідемпотентну зупинку робочого потоку, запобігаючи дедлокам при `stop()` і `close()`. |
 
 <details>
 <summary><b>Переглянути повний каталог архітектури (70+ проєктів)</b></summary>
