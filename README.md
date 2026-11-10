@@ -132,7 +132,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | :--- | :--- | :--- |
 | **[auth-passkey-service](https://github.com/txltedxgod/auth-passkey-service)** | `Python 3.12`, `FastAPI`, `WebAuthn` | Modern passwordless WebAuthn / Passkey FIDO2 authentication microservice with cross-platform attestation. |
 | **[jwt-guard-rs](https://github.com/txltedxgod/jwt-guard-rs)** | `Rust`, `Axum`, `Redis` | High-speed JWT authentication and real-time token revocation gateway with sub-millisecond overhead. |
-| **[secret-scanner-ci](https://github.com/txltedxgod/secret-scanner-ci)** | `Python`, `Entropy-Analysis` | High-speed pre-commit & CI secret scanner detecting leaked API keys, tokens and high-entropy secrets. |
+| **[secret-scanner-ci](https://github.com/txltedxgod/secret-scanner-ci)** | `Python 3.12`, `FastAPI`, `Shannon Entropy` | High-speed pre-commit & CI secret scanner: multi-cloud signatures (AWS/GitHub/Stripe/OpenAI), Shannon entropy analysis, Git diff inspection, 100% CI pass. |
 | **[audit-trail-ledger](https://github.com/txltedxgod/audit-trail-ledger)** | `Python`, `Merkle-Tree`, `Crypto` | Cryptographically verifiable immutable audit log ledger with Merkle Tree hash verification. |
 
 #### [4. Cloud, Kubernetes, FinOps & Infrastructure]
