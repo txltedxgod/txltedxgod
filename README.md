@@ -114,7 +114,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | :--- | :--- | :--- |
 | **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy` | Hybrid feature-hashed dense + Okapi BM25+ RAG with RRF fusion, metadata filters, cross-encoder reranking & 100% CI pass. |
 | **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `Python`, `FastAPI`, `Pydantic` | Production LLM evaluation & safety gateway: claim-level hallucination detector, multi-vector obfuscation defense, Luhn card/SSN/secret masking, 100% CI pass. |
-| **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python`, `Redis`, `Vector-Search` | Semantic vector cache for LLM queries with cosine similarity deduplication (80%+ cost reduction). |
+| **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python 3.12`, `FastAPI`, `NumPy` | Semantic vector cache for LLM queries: feature-hashed embeddings, `O(1)` LRU eviction, TTL expiration, namespace isolation, pipeline endpoints & 100% CI pass. |
 | **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python 3.12`, `AsyncIO`, `FastAPI` | Multi-agent orchestration framework with DAG cycle protection, AST-hardened REPL/math sandbox, feature-hashed VectorMemory, XSS-safe SSE studio & 100% CI pass. |
 | **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python 3.12`, `FastAPI`, `Knowledge-Graph` | GraphRAG engine with diamond-safe multi-hop traversal, PageRank centrality, shortest-path reasoning, entity linking & 100% CI pass. |
 | **[embeddings-quantizer](https://github.com/txltedxgod/embeddings-quantizer)** | `Python 3.12`, `NumPy`, `FastAPI` | Vector quantization engine: SQ8 asymmetric uint8 search (4x), 1-bit Binary Hamming (32x), K-Means Product Quantization (PQ) ADC & 100% CI pass. |
@@ -153,7 +153,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3` | 7 Telegram Mini Apps · [Live Demo](https://txltedxgod.github.io/tma-portfolio-suite/) |
 | **[nexus-userbot](https://github.com/txltedxgod/nexus-userbot)** | `Python 3.12`, `Telethon`, `SQLite` | High-performance modular userbot: dynamic plugin loader, custom emoji styling, media converters, and lead hunter. |
 | **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Docker` | Full-featured e-commerce bot: catalog, interactive cart, FSM checkout, promo codes, referral system. |
-| **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Cloud Run` | Personal finance tracker bot running on Google Cloud Run with multi-currency balance rollups. |
+| **[finbot](https://github.com/txltedxgod/finbot)** | `Python 3.12`, `SQLite`, `Cloud Run` | Personal multi-currency finance tracker bot running on Google Cloud Run with isolated SQLite unit tests & strict CI. |
 
 </details>
 
@@ -249,7 +249,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | :--- | :--- | :--- |
 | **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy` | Гібридний dense + Okapi BM25+ RAG із Reciprocal Rank Fusion (RRF), фільтрацією метаданих, переранжуванням і 100% CI pass. |
 | **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `Python`, `FastAPI`, `Pydantic` | Платформа безпеки та оцінки LLM: детектор галюцинацій на рівні тверджень, декодер обфускації (Base64/Hex/Rot13), Luhn-маскування карток/SSN і токенів, 100% CI pass. |
-| **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python`, `Redis`, `Vector-Search` | Семантичний векторний кеш для запитів до LLM з косинусною дедуплікацією (зниження витрат на токени понад 80%). |
+| **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python 3.12`, `FastAPI`, `NumPy` | Семантичний векторний кеш для LLM: feature hashing, LRU/TTL-витіснення, ізоляція просторів імен, pipeline API і 100% CI pass. |
 | **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python 3.12`, `AsyncIO`, `FastAPI` | Фреймворк мультиагентної оркестрації з захистом від циклів DAG, AST-ізоляцією REPL/калькулятора, VectorMemory, XSS-безпечним SSE і 100% CI pass. |
 | **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python 3.12`, `FastAPI`, `Knowledge-Graph` | GraphRAG-рушій із захищеним від циклів мульти-кроковим обходом графа, PageRank, пошуком найкоротших шляхів і 100% CI pass. |
 | **[embeddings-quantizer](https://github.com/txltedxgod/embeddings-quantizer)** | `Python 3.12`, `NumPy`, `FastAPI` | Рушій векторної квантизації: SQ8 (4x), 1-bit Binary Hamming (32x), K-Means Product Quantization (PQ) з ADC-пошуком і 100% CI pass. |
@@ -287,7 +287,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[tma-portfolio-suite](https://github.com/txltedxgod/tma-portfolio-suite)** | `Telegram WebApp SDK`, `aiogram 3` | Комплекс із 7 Telegram Mini Apps · [Демо](https://txltedxgod.github.io/tma-portfolio-suite/) |
 | **[nexus-userbot](https://github.com/txltedxgod/nexus-userbot)** | `Python 3.12`, `Telethon`, `SQLite` | Високопродуктивний модульний юзербот: динамічний завантажувач плагінів, кастомні емодзі, медіа-конвертери та лідогенератор. |
 | **[telegram-store-bot](https://github.com/txltedxgod/telegram-store-bot)** | `aiogram 3`, `PostgreSQL`, `Docker` | Повнофункціональний інтернет-магазин у Telegram: каталог товарів, інтерактивний кошик, FSM-оформлення, промокоди. |
-| **[finbot](https://github.com/txltedxgod/finbot)** | `Python`, `SQLite`, `Cloud Run` | Бот для відстеження особистих фінансів на Google Cloud Run з мультивалютним зведенням балансу. |
+| **[finbot](https://github.com/txltedxgod/finbot)** | `Python 3.12`, `SQLite`, `Cloud Run` | Бот для відстеження особистих фінансів на Google Cloud Run із мультивалютним зведенням, SQLite-тестами і строгим CI. |
 
 </details>
 
