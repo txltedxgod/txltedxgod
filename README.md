@@ -116,8 +116,8 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `Python`, `FastAPI`, `Pydantic` | Production LLM evaluation & safety gateway: claim-level hallucination detector, multi-vector obfuscation defense, Luhn card/SSN/secret masking, 100% CI pass. |
 | **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python`, `Redis`, `Vector-Search` | Semantic vector cache for LLM queries with cosine similarity deduplication (80%+ cost reduction). |
 | **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python 3.12`, `AsyncIO`, `FastAPI` | Multi-agent orchestration framework with DAG cycle protection, AST-hardened REPL/math sandbox, feature-hashed VectorMemory, XSS-safe SSE studio & 100% CI pass. |
-| **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python`, `Neo4j`, `Knowledge-Graph` | Knowledge Graph-enhanced RAG engine with entity extraction, graph traversal, and multi-hop reasoning. |
-| **[embeddings-quantizer](https://github.com/txltedxgod/embeddings-quantizer)** | `Python`, `Product-Quantization` | High-performance vector quantization reducing embedding memory footprint by 75% without accuracy loss. |
+| **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python 3.12`, `FastAPI`, `Knowledge-Graph` | GraphRAG engine with diamond-safe multi-hop traversal, PageRank centrality, shortest-path reasoning, entity linking & 100% CI pass. |
+| **[embeddings-quantizer](https://github.com/txltedxgod/embeddings-quantizer)** | `Python 3.12`, `NumPy`, `FastAPI` | Vector quantization engine: SQ8 asymmetric uint8 search (4x), 1-bit Binary Hamming (32x), K-Means Product Quantization (PQ) ADC & 100% CI pass. |
 | **[docassist](https://github.com/txltedxgod/docassist)** | `FastAPI`, `pgvector`, `aiogram 3` | Production RAG assistant over documents: async pgvector ingestion, semantic search and SSE streaming. |
 
 #### [2. High-Performance Distributed Systems & Gateways]
@@ -137,7 +137,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[auth-passkey-service](https://github.com/txltedxgod/auth-passkey-service)** | `Python 3.12`, `FastAPI`, `WebAuthn` | Passwordless WebAuthn/FIDO2 microservice with RFC 8949 CBOR/COSE decoding, ES256/EdDSA cryptographic verification, anti-cloning `signCount` & 100% CI pass. |
 | **[jwt-guard-rs](https://github.com/txltedxgod/jwt-guard-rs)** | `Rust`, `Axum`, `Redis` | High-speed JWT authentication and real-time token revocation gateway with sub-millisecond overhead. |
 | **[secret-scanner-ci](https://github.com/txltedxgod/secret-scanner-ci)** | `Python 3.12`, `FastAPI`, `Shannon Entropy` | High-speed pre-commit & CI secret scanner: multi-cloud signatures (AWS/GitHub/Stripe/OpenAI), Shannon entropy analysis, Git diff inspection, 100% CI pass. |
-| **[audit-trail-ledger](https://github.com/txltedxgod/audit-trail-ledger)** | `Python`, `Merkle-Tree`, `Crypto` | Cryptographically verifiable immutable audit log ledger with Merkle Tree hash verification. |
+| **[audit-trail-ledger](https://github.com/txltedxgod/audit-trail-ledger)** | `Python 3.12`, `Merkle-Tree`, `RFC 6962` | Tamper-evident immutable audit ledger with RFC 6962 domain-separated Merkle trees, `O(log N)` inclusion proofs, digest re-verification & 100% CI pass. |
 
 #### [4. Cloud, Kubernetes, FinOps & Infrastructure]
 | Repository | Tech Stack | Highlights |
@@ -251,8 +251,8 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `Python`, `FastAPI`, `Pydantic` | Платформа безпеки та оцінки LLM: детектор галюцинацій на рівні тверджень, декодер обфускації (Base64/Hex/Rot13), Luhn-маскування карток/SSN і токенів, 100% CI pass. |
 | **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python`, `Redis`, `Vector-Search` | Семантичний векторний кеш для запитів до LLM з косинусною дедуплікацією (зниження витрат на токени понад 80%). |
 | **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python 3.12`, `AsyncIO`, `FastAPI` | Фреймворк мультиагентної оркестрації з захистом від циклів DAG, AST-ізоляцією REPL/калькулятора, VectorMemory, XSS-безпечним SSE і 100% CI pass. |
-| **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python`, `Neo4j`, `Knowledge-Graph` | RAG-рушій на основі графів знань з екстракцією сутностей, обходом зв'язків та мульти-кроковими висновками. |
-| **[embeddings-quantizer](https://github.com/txltedxgod/embeddings-quantizer)** | `Python`, `Product-Quantization` | Високопродуктивна квантизація ембедингів, що зменшує обсяг пам'яті на 75% без втрати точності. |
+| **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python 3.12`, `FastAPI`, `Knowledge-Graph` | GraphRAG-рушій із захищеним від циклів мульти-кроковим обходом графа, PageRank, пошуком найкоротших шляхів і 100% CI pass. |
+| **[embeddings-quantizer](https://github.com/txltedxgod/embeddings-quantizer)** | `Python 3.12`, `NumPy`, `FastAPI` | Рушій векторної квантизації: SQ8 (4x), 1-bit Binary Hamming (32x), K-Means Product Quantization (PQ) з ADC-пошуком і 100% CI pass. |
 | **[docassist](https://github.com/txltedxgod/docassist)** | `FastAPI`, `pgvector`, `aiogram 3` | RAG-асистент для роботи з документами: асинхронне збереження в pgvector, семантичний пошук та SSE-стрімінг. |
 
 #### [2. Високопродуктивні розподілені системи та шлюзи]
@@ -271,7 +271,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[auth-passkey-service](https://github.com/txltedxgod/auth-passkey-service)** | `Python 3.12`, `FastAPI`, `WebAuthn` | Безпарольний мікросервіс WebAuthn/FIDO2 із RFC 8949 CBOR/COSE парсером, ES256/EdDSA криптографічною верифікацією, anti-cloning `signCount` і 100% CI pass. |
 | **[jwt-guard-rs](https://github.com/txltedxgod/jwt-guard-rs)** | `Rust`, `Axum`, `Redis` | Високошвидкісний шлюз перевірки та миттєвого відкликання JWT-токенів із субмілісекундною затримкою. |
 | **[secret-scanner-ci](https://github.com/txltedxgod/secret-scanner-ci)** | `Python`, `Entropy-Analysis` | Сканер секретів для pre-commit та CI, що виявляє витоки API-ключів, токенів та високоентропійних даних. |
-| **[audit-trail-ledger](https://github.com/txltedxgod/audit-trail-ledger)** | `Python`, `Merkle-Tree`, `Crypto` | Криптографічно верифікований незмінний журнал аудиту на базі дерев Меркла. |
+| **[audit-trail-ledger](https://github.com/txltedxgod/audit-trail-ledger)** | `Python 3.12`, `Merkle-Tree`, `RFC 6962` | Незмінний журнал аудиту на базі RFC 6962 дерев Меркла з `O(log N)` доказами включення, перевіркою SHA-256 і 100% CI pass. |
 
 #### [4. Хмарна інфраструктура, Kubernetes та FinOps]
 | Репозиторій | Стек технологій | Основні можливості |
