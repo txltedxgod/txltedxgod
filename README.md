@@ -122,6 +122,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[zenith-gateway](https://github.com/txltedxgod/zenith-gateway)** | `Rust`, `Tokio`, `Axum` | Ultra-fast cloud-native API Gateway and WAF with dynamic rate limiting and JWT RBAC policies (150k+ QPS). |
 | **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap` | Distributed commit-log message broker with consumer groups, automatic rebalancing & real-time dashboard. |
 | **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python`, `PostgreSQL WAL`, `Kafka` | Real-time Change Data Capture (CDC) engine with Transactional Outbox pattern, DLQ and replay. |
+| **[distributed-cron-leader](https://github.com/txltedxgod/distributed-cron-leader)** | `Python 3.12`, `FastAPI`, `Consensus` | Distributed cron scheduler with atomic lease-based leader election, split-brain fencing tokens, and exactly-once execution. |
 | **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL` | Fast in-memory key-value store with TTL, binary Write-Ahead Logging (WAL) crash recovery and TCP protocol. |
 | **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `CRDTs`, `WebSockets` | Collaborative infinite canvas engine with Conflict-Free Replicated Data Types & QuadTree spatial indexing. |
 | **[gocache-proxy](https://github.com/txltedxgod/gocache-proxy)** | `Go 1.22`, `LRU-Cache`, `Prometheus` | High-performance HTTP caching reverse proxy with concurrent thread-safe in-memory LRU. |
