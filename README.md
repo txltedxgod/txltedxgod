@@ -128,7 +128,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python`, `PostgreSQL WAL`, `Kafka` | Real-time Change Data Capture (CDC) engine with Transactional Outbox pattern, DLQ and replay. |
 | **[distributed-cron-leader](https://github.com/txltedxgod/distributed-cron-leader)** | `Python 3.12`, `FastAPI`, `Consensus` | Distributed cron scheduler with atomic lease-based leader election, split-brain fencing tokens, and exactly-once execution. |
 | **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL` | Fast in-memory key-value store with TTL, binary Write-Ahead Logging (WAL) crash recovery and TCP protocol. |
-| **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `CRDTs`, `WebSockets` | Collaborative infinite canvas engine with Conflict-Free Replicated Data Types & QuadTree spatial indexing. |
+| **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `CRDTs`, `WebSockets` | Collaborative infinite canvas engine: total-order LWW CRDT, ACI snapshot merge, tombstone GC, QuadTree indexing & WS presence cleanup. |
 | **[gocache-proxy](https://github.com/txltedxgod/gocache-proxy)** | `Go 1.22`, `LRU-Cache`, `Prometheus` | High-performance HTTP caching reverse proxy with concurrent thread-safe in-memory LRU. |
 
 #### [3. Security, Authentication & Observability]
@@ -262,7 +262,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[nexus-mq](https://github.com/txltedxgod/nexus-mq)** | `Go 1.22`, `gRPC`, `mmap` | Розподілений commit-log брокер повідомлень із групами споживачів, автоматичним ребалансуванням та панеллю моніторингу. |
 | **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python`, `PostgreSQL WAL`, `Kafka` | Двигун Change Data Capture (CDC) реального часу з патерном Transactional Outbox, DLQ та повторним відтворенням. |
 | **[turbokv](https://github.com/txltedxgod/turbokv)** | `Modern C++17`, `TCP`, `WAL` | Швидке in-memory key-value сховище з TTL, відновленням після збоїв через бінарний WAL та мережевим протоколом TCP. |
-| **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `CRDTs`, `WebSockets` | Спільне полотно для малювання з Conflict-Free Replicated Data Types (CRDT) та просторовою індексацією QuadTree. |
+| **[syncspace-crdt](https://github.com/txltedxgod/syncspace-crdt)** | `TypeScript`, `CRDTs`, `WebSockets` | Спільне полотно для малювання: total-order LWW CRDT, ACI злиття знімків, tombstone GC, QuadTree індексація та WebSocket-трекінг присутності. |
 | **[gocache-proxy](https://github.com/txltedxgod/gocache-proxy)** | `Go 1.22`, `LRU-Cache`, `Prometheus` | Високопродуктивний зворотний проксі-кеш HTTP з потокобезпечним in-memory LRU кешем на Go. |
 
 #### [3. Безпека, автентифікація та Observability]
