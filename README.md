@@ -63,6 +63,10 @@ Software engineer and systems builder focused on high-throughput backend archite
 | **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python 3.12`, `PostgreSQL WAL`, `Kafka`, `Redis` | Real-time Change Data Capture (CDC) engine with Transactional Outbox pattern, DLQ, and replay. |
 | **[otkat-generator](https://github.com/txltedxgod)** | `C# WPF (.NET 10)`, `WebView2`, `Canvas JS` | Desktop graphic editor and screenshot annotation tool with hotkey clipboard integration (`Ctrl+V`/`Ctrl+C`), target framing, and censor engine. |
 | **[life-os](https://github.com/txltedxgod)** | `Python`, `HTML5 / Vanilla JS`, `Android APK` | Personal productivity operating system with multi-currency finance tracking (CZK/RUB/EUR/USDT), automated daily reporting, and mobile PWA/APK. |
+| **[synthetic-data-gen](https://github.com/txltedxgod/synthetic-data-gen)** | `Python 3.12`, `NumPy`, `FastAPI`, `Docker` | Privacy-preserving tabular synthetic data generator with $(\epsilon, \delta)$-Differential Privacy, covariance PSD projection, and fidelity audit. |
+| **[secret-scanner-ci](https://github.com/txltedxgod/secret-scanner-ci)** | `Python 3.12`, `FastAPI`, `Git`, `Regex` | High-speed pre-commit & CI secret scanner detecting leaked API keys and tokens with Shannon entropy analysis and Git diff hunk scanning. |
+| **[distributed-cron-leader](https://github.com/txltedxgod/distributed-cron-leader)** | `Python 3.12`, `FastAPI`, `Distributed Lease` | Distributed cron scheduler with lease-based leader election, fencing tokens against split-brain, and exactly-once execution slots. |
+| **[k8s-cost-optimizer](https://github.com/txltedxgod/k8s-cost-optimizer)** | `Python 3.12`, `FastAPI`, `Kubernetes FinOps` | Kubernetes FinOps daemon: pod rightsizing, multi-cloud pricing (AWS/GCP/Azure), Spot discount arbitrage, and P95 telemetry analysis. |
 
 <br/>
 
@@ -194,6 +198,10 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | **[event-stream-cdc](https://github.com/txltedxgod/event-stream-cdc)** | `Python 3.12`, `PostgreSQL WAL`, `Kafka`, `Redis` | Двигун Change Data Capture (CDC) реального часу з патерном Transactional Outbox, DLQ та повторним відтворенням. |
 | **[otkat-generator](https://github.com/txltedxgod)** | `C# WPF (.NET 10)`, `WebView2`, `Canvas JS` | Десктопний графічний редактор фіксацій та анотацій: шорткати буфера обміну (`Ctrl+V`/`Ctrl+C`), рамки виділення цілей та інструмент цензурування. |
 | **[life-os](https://github.com/txltedxgod)** | `Python`, `HTML5 / Vanilla JS`, `Android APK` | Персональна операційна система продуктивності з мультивалютним фінансовим обліком (CZK/RUB/EUR/USDT), щоденними авто-звітами та мобільним APK/PWA. |
+| **[synthetic-data-gen](https://github.com/txltedxgod/synthetic-data-gen)** | `Python 3.12`, `NumPy`, `FastAPI`, `Docker` | Генератор синтетичних табличних даних із $(\epsilon, \delta)$-диференційною приватністю, проекцією коваріації на PSD-конус та аудитом fidelity. |
+| **[secret-scanner-ci](https://github.com/txltedxgod/secret-scanner-ci)** | `Python 3.12`, `FastAPI`, `Git`, `Regex` | Швидкісний сканер секретів для CI з ентропійним аналізом Шеннона, перевіркою Git diff hunks та захистом від витоків токенів. |
+| **[distributed-cron-leader](https://github.com/txltedxgod/distributed-cron-leader)** | `Python 3.12`, `FastAPI`, `Distributed Lease` | Розподілений планувальник cron з атомарними lease-виборами лідера, fencing-токенами та гарантією exactly-once. |
+| **[k8s-cost-optimizer](https://github.com/txltedxgod/k8s-cost-optimizer)** | `Python 3.12`, `FastAPI`, `Kubernetes FinOps` | FinOps-демон оптимізації витрат Kubernetes: мультитенантні тарифи (AWS/GCP/Azure), Spot-арбітраж та детекція OOM/idle. |
 
 <br/>
 
