@@ -87,7 +87,8 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | Ecosystem / Project | Pull Request | Impact & Highlights |
 | :--- | :--- | :--- |
 | **[chigwell / telegram-mcp](https://github.com/chigwell/telegram-mcp)** ⭐ 2,015 | [PR #383](https://github.com/chigwell/telegram-mcp/pull/383) | **MERGED** · Added `TELEGRAM_LANG_CODE` & system header support for Telethon client identity. |
-| **[falbany / ProFiles](https://github.com/falbany/ProFiles)** | [PR #159](https://github.com/falbany/ProFiles/pull/159) | **MERGED** · Closes #118 · Validated `re:` match patterns and reported exact YAML config paths. |
+| **[falbany / ProFiles](https://github.com/falbany/ProFiles)** | [PR #159](https://github.com/falbany/ProFiles/pull/159), [PR #160](https://github.com/falbany/ProFiles/pull/160) | **MERGED & ACTIVE** · Closes #118, #144 · Consolidated atomic starter-config writers & validated regex configs. |
+| **[seanthegeek / doubleagent](https://github.com/seanthegeek/doubleagent)** | [PR #508](https://github.com/seanthegeek/doubleagent/pull/508) | Closes #507 · Recorded excluded symbolic links as `type: symlink` with target to bound staged path mapping. |
 | **[anasty17 / mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)** ⭐ 4,359 | [PR #1955](https://github.com/anasty17/mirror-leech-telegram-bot/pull/1955) | Closes #1937 · Added `EXTENSION_FIRST_SPLIT` setting, `-efs` CLI flag, and user settings toggle button. |
 | **[Dineshkarthik / telegram_media_downloader](https://github.com/Dineshkarthik/telegram_media_downloader)** ⭐ 2,762 | [PR #565](https://github.com/Dineshkarthik/telegram_media_downloader/pull/565) | Fixes #564 · Added `skip_existing_files` configuration option to prevent re-downloading duplicate files. |
 | **[aahnik / tgcf](https://github.com/aahnik/tgcf)** ⭐ 1,629 | [PR #654](https://github.com/aahnik/tgcf/pull/654) | Closes #630 · Streamlit `st.rerun()` compatibility, cross-platform process management, and log reading. |
@@ -215,6 +216,8 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | Проєкт | Pull Request | Внесок та технічні деталі |
 | :--- | :--- | :--- |
 | **[chigwell / telegram-mcp](https://github.com/chigwell/telegram-mcp)** ⭐ 2,015 | [PR #383](https://github.com/chigwell/telegram-mcp/pull/383) | **MERGED** · Додано підтримку `TELEGRAM_LANG_CODE` та заголовків автентичності Telethon. |
+| **[falbany / ProFiles](https://github.com/falbany/ProFiles)** | [PR #159](https://github.com/falbany/ProFiles/pull/159), [PR #160](https://github.com/falbany/ProFiles/pull/160) | **MERGED & ACTIVE** · Консолідовано створення конфігурацій через атомарний запис; валідація regex патернів. |
+| **[seanthegeek / doubleagent](https://github.com/seanthegeek/doubleagent)** | [PR #508](https://github.com/seanthegeek/doubleagent/pull/508) | Closes #507 · Зафіксовано виключені символічні посилання як `type: symlink` з цільовим шляхом. |
 | **[anasty17 / mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)** ⭐ 4,359 | [PR #1955](https://github.com/anasty17/mirror-leech-telegram-bot/pull/1955) | Closes #1937 · Додано налаштування `EXTENSION_FIRST_SPLIT`, CLI-флаг `-efs` та кнопку конфігурації. |
 | **[Dineshkarthik / telegram_media_downloader](https://github.com/Dineshkarthik/telegram_media_downloader)** ⭐ 2,762 | [PR #565](https://github.com/Dineshkarthik/telegram_media_downloader/pull/565) | Fixes #564 · Додано опцію `skip_existing_files` для уникнення повторного завантаження дублікатів. |
 | **[aahnik / tgcf](https://github.com/aahnik/tgcf)** ⭐ 1,629 | [PR #654](https://github.com/aahnik/tgcf/pull/654) | Closes #630 · Сумісність зі Streamlit `st.rerun()`, кросплатформний контроль процесів, логування. |
