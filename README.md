@@ -137,7 +137,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 #### [4. Cloud, Kubernetes, FinOps & Infrastructure]
 | Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| **[k8s-cost-optimizer](https://github.com/txltedxgod/k8s-cost-optimizer)** | `Python`, `Kubernetes API`, `FinOps` | Kubernetes resource rightsizing & FinOps cost optimization daemon: CPU/Memory waste detection. |
+| **[k8s-cost-optimizer](https://github.com/txltedxgod/k8s-cost-optimizer)** | `Python 3.12`, `FastAPI`, `Kubernetes API`, `FinOps` | Autonomous FinOps rightsizing daemon: multi-cloud compute pricing (AWS/GCP/Azure/On-Prem), statistical P95/P99 percentiles, critical OOMKilled risk detection, batch fleet analytics, 100% test coverage. |
 | **[k8s-pod-autoscale](https://github.com/txltedxgod/k8s-pod-autoscale)** | `Go`, `client-go`, `Prometheus` | Custom Kubernetes controller for dynamic queue and metric-based pod autoscaling. |
 | **[tf-infra-modules](https://github.com/txltedxgod/tf-infra-modules)** | `Terraform HCL`, `AWS`, `GCP` | Production modular Infrastructure as Code blueprints: Multi-AZ VPC, EKS Cluster, Aurora RDS, IAM. |
 | **[ansible-hardening](https://github.com/txltedxgod/ansible-hardening)** | `Ansible`, `Linux Kernel Tuning` | Production Linux server security hardening, CIS benchmark compliance, and sysctl tuning. |
