@@ -87,6 +87,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | Ecosystem / Project | Pull Request | Impact & Highlights |
 | :--- | :--- | :--- |
 | **[chigwell / telegram-mcp](https://github.com/chigwell/telegram-mcp)** ⭐ 2,015 | [PR #383](https://github.com/chigwell/telegram-mcp/pull/383) | **MERGED** · Added `TELEGRAM_LANG_CODE` & system header support for Telethon client identity. |
+| **[Aakash02A / CipherForge](https://github.com/Aakash02A/CipherForge)** | [PR #4](https://github.com/Aakash02A/CipherForge/pull/4) | **MERGED** · Implemented automated frequency analysis auto-solve using chi-squared statistics. |
 | **[falbany / ProFiles](https://github.com/falbany/ProFiles)** | [PR #159](https://github.com/falbany/ProFiles/pull/159), [PR #160](https://github.com/falbany/ProFiles/pull/160) | **MERGED & ACTIVE** · Closes #118, #144 · Consolidated atomic starter-config writers & validated regex configs. |
 | **[seanthegeek / doubleagent](https://github.com/seanthegeek/doubleagent)** | [PR #508](https://github.com/seanthegeek/doubleagent/pull/508) | Closes #507 · Recorded excluded symbolic links as `type: symlink` with target to bound staged path mapping. |
 | **[anasty17 / mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)** ⭐ 4,359 | [PR #1955](https://github.com/anasty17/mirror-leech-telegram-bot/pull/1955) | Closes #1937 · Added `EXTENSION_FIRST_SPLIT` setting, `-efs` CLI flag, and user settings toggle button. |
@@ -108,7 +109,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
 | **[rag-fusion-engine](https://github.com/txltedxgod/rag-fusion-engine)** | `Python 3.12`, `FastAPI`, `NumPy` | Advanced RAG with Reciprocal Rank Fusion (RRF), multi-query expansion and cross-encoder reranking. |
-| **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `Python`, `FastAPI`, `Pydantic` | Production LLM evaluation & safety platform: hallucination detection, prompt injection defense, PII masking. |
+| **[llm-eval-guard](https://github.com/txltedxgod/llm-eval-guard)** | `Python`, `FastAPI`, `Pydantic` | Production LLM safety guardrail & gateway: multi-vector obfuscation defense (Base64, Hex, Leetspeak, Rot13), PII redaction, 100% CI pass. |
 | **[vector-cache-redis](https://github.com/txltedxgod/vector-cache-redis)** | `Python`, `Redis`, `Vector-Search` | Semantic vector cache for LLM queries with cosine similarity deduplication (80%+ cost reduction). |
 | **[polyagent-core](https://github.com/txltedxgod/polyagent-core)** | `Python`, `AsyncIO`, `FastAPI` | Autonomous multi-agent orchestration framework with DAG execution, vector memory and tool sandboxing. |
 | **[graph-rag-navigator](https://github.com/txltedxgod/graph-rag-navigator)** | `Python`, `Neo4j`, `Knowledge-Graph` | Knowledge Graph-enhanced RAG engine with entity extraction, graph traversal, and multi-hop reasoning. |
@@ -216,6 +217,7 @@ Production-grade bug fixes, ecosystem features, and architecture maintenance acr
 | Проєкт | Pull Request | Внесок та технічні деталі |
 | :--- | :--- | :--- |
 | **[chigwell / telegram-mcp](https://github.com/chigwell/telegram-mcp)** ⭐ 2,015 | [PR #383](https://github.com/chigwell/telegram-mcp/pull/383) | **MERGED** · Додано підтримку `TELEGRAM_LANG_CODE` та заголовків автентичності Telethon. |
+| **[Aakash02A / CipherForge](https://github.com/Aakash02A/CipherForge)** | [PR #4](https://github.com/Aakash02A/CipherForge/pull/4) | **MERGED** · Реалізовано авто-злом частотним аналізом на основі критерію хі-квадрат. |
 | **[falbany / ProFiles](https://github.com/falbany/ProFiles)** | [PR #159](https://github.com/falbany/ProFiles/pull/159), [PR #160](https://github.com/falbany/ProFiles/pull/160) | **MERGED & ACTIVE** · Консолідовано створення конфігурацій через атомарний запис; валідація regex патернів. |
 | **[seanthegeek / doubleagent](https://github.com/seanthegeek/doubleagent)** | [PR #508](https://github.com/seanthegeek/doubleagent/pull/508) | Closes #507 · Зафіксовано виключені символічні посилання як `type: symlink` з цільовим шляхом. |
 | **[anasty17 / mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot)** ⭐ 4,359 | [PR #1955](https://github.com/anasty17/mirror-leech-telegram-bot/pull/1955) | Closes #1937 · Додано налаштування `EXTENSION_FIRST_SPLIT`, CLI-флаг `-efs` та кнопку конфігурації. |
